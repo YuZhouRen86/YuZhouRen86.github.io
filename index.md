@@ -3,8 +3,8 @@
 ### 产品列表
 
 Python模块管理　
-[国外普通下载](Python模块管理.exe)
-[国内高速下载](http://file.yiyuen.com/file/download/256229)
+[国外通道下载](Python模块管理.exe)
+[国内通道下载](http://file.yiyuen.com/file/download/256229)
 ```markdown
 Syntax highlighted code block
 
