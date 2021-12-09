@@ -1,5 +1,5 @@
 theme: jekyll-theme-modernist
 title: 宇宙人
 description: [A short description of your site's purpose]
-is_project_page: false
-show_downloads：false
+github:
+    is_project_page: false
