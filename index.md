@@ -27,6 +27,4 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YuZhouRen86/YuZhouRen86.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### 支持
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 版权所有©　2021　宇宙人
