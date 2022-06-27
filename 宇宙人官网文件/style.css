@@ -32,7 +32,7 @@ body{padding:50px 0;margin:0;font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Ar
 a{color:#069;text-decoration:none;font-family:"Microsoft Jhenghei"}
 p{margin:0 0 20px;padding:0;font-family:"Microsoft Jhenghei"}
 strong{color:#222;font-weight:700}
-.header{border-radius:8px 8px 0 0;background:#C6EAFA;background:linear-gradient(#DDFBFC, #C6EAFA);position:relative;padding:15px 20px;border-bottom:1px solid #B2D2E1;z-index:1}
+.header{border-radius:8px 8px 0 0;background:#C6EAFA;background:linear-gradient(#DDFBFC, #C6EAFA);position:relative;padding:15px 20px;border-bottom:1px solid #B2D2E1}
 .header h1{margin:0;padding:0;font-size:28px;line-height:1.2;color:#069;text-shadow:rgba(255,255,255,0.9) 0 1px 0}
 .header.without-description h1{margin:10px 0}
 .header p{margin:0;color:#61778B;width:300px;font-size:16px}
