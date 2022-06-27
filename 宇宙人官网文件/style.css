@@ -28,7 +28,7 @@
 html{background:#ffdede;background:#ffdede linear-gradient(0deg, #ffdede 0%, #B5FFFC 100%) fixed;height:100%}
 body{padding:50px 0;margin:0;font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;color:#555;font-weight:300;background:url("../images/checker.png") fixed;min-height:calc(100% - 100px)}
 .wrapper{width:740px;margin:0 auto;background:#DEDEDE;border-radius:8px;box-shadow:rgba(0,0,0,0.2) 0 0 0 1px,rgba(0,0,0,0.45) 0 3px 10px}
-.header,.section,footer{display:block}
+.header,.section,.footer{display:block}
 a{color:#069;text-decoration:none;font-family:"Microsoft Jhenghei"}
 p{margin:0 0 20px;padding:0;font-family:"Microsoft Jhenghei"}
 strong{color:#222;font-weight:700}
@@ -59,15 +59,16 @@ th{color:#222}
 small{font-size:11px}
 hr{border:0;background:#aaa;height:1px;margin:0 0 20px}
 kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5;color:#444d56;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}
-footer{width:640px;margin:0 auto;padding:20px 0 0;color:#6c7989;overflow:hidden}
-footer a{color:#fff;font-weight:bold}
-footer p{float:left}
-footer p+p{float:right}
+.footer{width:640px;margin:0 auto;padding:20px 0 0;color:#6c7989;overflow:hidden}
+.footer a{color:#fff;font-weight:bold}
+.footer p{float:left}
+.footer p+p{float:right}
 @media print, screen and (max-width: 740px){
   body{padding:0}
   .wrapper{border-radius:0;box-shadow:none;width:100%}
-  footer{border-radius:0;padding:20px;width:auto}
-  footer p{float:none;margin:0}footer p+p{float:none}
+  .footer{border-radius:0;padding:20px;width:auto}
+  .footer p{float:none;margin:0}
+  .footer p+p{float:none}
 }
 @media print, screen and (max-width: 580px){
   .header ul{display:none}
