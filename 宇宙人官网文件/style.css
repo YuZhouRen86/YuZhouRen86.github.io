@@ -78,6 +78,8 @@ kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da
 @media print{
   .header p.view a small:before{content:'at https://github.com/'}
 }
+.widenotice{text-align:center;width:auto;height:auto;padding:8px 8px}
+.widenotice h1,h2,h3,h4,h5,h6,a,p{margin:0}
 .绿蓝色渐变按钮,.蓝色渐变按钮,.橘红色渐变按钮,.紫色渐变按钮{transition:all 0.5s}
 .绿蓝色渐变按钮{color: #FFFFFF;border-radius: 25px;background-color: #0093E9;background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
 .绿蓝色渐变按钮:hover{color: #FFFFFF;text-shadow:0 0 3px #FFFFFF;box-shadow: 0 0 6px #0093E9;border-radius: 25px;background-color: #0093E9;background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
