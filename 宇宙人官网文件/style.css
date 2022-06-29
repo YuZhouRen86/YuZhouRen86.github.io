@@ -30,19 +30,19 @@ body{padding:50px 0;margin:0;font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Ar
 .wrapper{width:740px;margin:0 auto;background:#EEEEEE;border-radius:6px;box-shadow:0 0 6px #FF0000;border:2px solid #FF0000}
 .header,.section,.footer{display:block}
 a{color:#069;text-decoration:none;font-family:"Microsoft Jhenghei"}
-p{margin:0 0 20px;padding:0;font-family:"Microsoft Jhenghei"}
+p{margin:0;padding:0;font-family:"Microsoft Jhenghei";line-height:1.2}
 strong{color:#222;font-weight:700}
 .header{border-radius:6px 6px 0 0;background:#C6EAFA;background:linear-gradient(#DDFBFC, #C6EAFA);position:relative;padding:15px 20px;border-bottom:1px solid #B2D2E1}
 .header h1{margin:0;padding:0;font-size:28px;line-height:1.2;color:#069;text-shadow:rgba(255,255,255,0.9) 0 1px 0}
 .header.without-description h1{margin:10px 0}
-.header p{margin:0;color:#61778B;width:300px;font-size:16px}
+.header p{margin:0;color:#61778B;width:300px;font-size:16px;line-height:1.2}
 .header p.view{display:none;font-weight:700;text-shadow:rgba(255,255,255,0.9) 0 1px 0;-webkit-font-smoothing:antialiased}
 .header p.view a{color:#06c}
 .header p.view small{font-weight:400}
 .header div{margin:0;padding:1px 0;position:absolute;z-index:6;right:20px;top:20px;height:45px;background:#5198DF;background:linear-gradient(#9599E2, #8BC6EC);border-radius:5px;box-shadow:inset rgba(255,255,255,0.45) 0 1px 0,inset rgba(0,0,0,0.2) 0 -1px 0;width:45px}
 .section{padding:15px 20px;font-size:15px;border-top:1px solid #fff;background:linear-gradient(#fafafa, #EEEEEE 700px);border-radius:0 0 8px 8px;position:relative}
-h1,h2,h3,h4,h5,h6{color:#222;padding:0;margin:0 0 20px;line-height:1.2;font-family:"Microsoft Jhenghei"}
-p,ul,ol,table,pre,dl{margin:0 0 20px}
+h1,h2,h3,h4,h5,h6{color:#222;padding:0;margin:0;line-height:1.2;font-family:"Microsoft Jhenghei";line-height:1.2}
+p,ul,ol,table,pre,dl{margin:0}
 h1,h2,h3{line-height:1.1}
 h1{font-size:28px}
 h2{color:#393939}
@@ -57,7 +57,7 @@ th,td{text-align:left;padding:5px 10px;border-bottom:1px solid #aaa}
 dt{color:#222;font-weight:700}
 th{color:#222}
 small{font-size:11px}
-hr{border:0;background:#aaa;height:1px;margin:0 0 20px}
+hr{border:0;background:#aaa;height:1px;margin:0;line-height:1.2}
 kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5;color:#444d56;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}
 .footer{width:640px;margin:0 auto;padding:20px 0 0;color:#6c7989;overflow:hidden}
 .footer a{color:#fff;font-weight:bold}
@@ -67,7 +67,7 @@ kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da
   body{padding:0}
   .wrapper{border-radius:0;box-shadow:none;width:100%}
   .footer{border-radius:0;padding:20px;width:auto}
-  .footer p{float:none;margin:0}
+  .footer p{float:none;margin:0;line-height:1.2}
   .footer p+p{float:none}
 }
 @media print, screen and (max-width: 580px){
@@ -79,7 +79,6 @@ kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da
   .header p.view a small:before{content:'at https://github.com/'}
 }
 .widenotice{text-align:center;width:auto;height:auto;padding:8px 8px}
-.widenotice h1,h2,h3,h4,h5,h6,a,p{margin:0}
 .绿蓝色渐变按钮,.蓝色渐变按钮,.橘红色渐变按钮,.紫色渐变按钮{transition:all 0.5s}
 .绿蓝色渐变按钮{color: #FFFFFF;border-radius: 25px;background-color: #0093E9;background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
 .绿蓝色渐变按钮:hover{color: #FFFFFF;text-shadow:0 0 3px #FFFFFF;box-shadow: 0 0 6px #0093E9;border-radius: 25px;background-color: #0093E9;background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
