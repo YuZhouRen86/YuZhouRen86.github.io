@@ -30,18 +30,18 @@ body{padding:50px 0;margin:0;font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Ar
 .wrapper{width:740px;margin:0 auto;background:#EEEEEE;border-radius:6px;box-shadow:0 0 6px #FF0000;border:2px solid #FF0000}
 .header,.section,.footer{display:block}
 a{color:#069;text-decoration:none;font-family:"Microsoft Jhenghei"}
-p{margin:0;padding:0;font-family:"Microsoft Jhenghei";line-height:1.2}
+p{margin:0 10px;padding:0;font-family:"Microsoft Jhenghei"}
 strong{color:#222;font-weight:700}
 .header{border-radius:6px 6px 0 0;background:#C6EAFA;background:linear-gradient(#DDFBFC, #C6EAFA);position:relative;padding:15px 20px;border-bottom:1px solid #B2D2E1}
-.header h1{margin:0;padding:0;font-size:28px;line-height:1.2;color:#069;text-shadow:rgba(255,255,255,0.9) 0 1px 0}
+.header h1{margin:0 10px;padding:0;font-size:28px;line-height:1.2;color:#069;text-shadow:rgba(255,255,255,0.9) 0 1px 0}
 .header.without-description h1{margin:10px 0}
-.header p{margin:0;color:#61778B;width:300px;font-size:16px;line-height:1.2}
+.header p{margin:0 10px;color:#61778B;width:300px;font-size:16px;line-height:1.2}
 .header p.view{display:none;font-weight:700;text-shadow:rgba(255,255,255,0.9) 0 1px 0;-webkit-font-smoothing:antialiased}
 .header p.view a{color:#06c}
 .header p.view small{font-weight:400}
 .header div{margin:0;padding:1px 0;position:absolute;z-index:6;right:20px;top:20px;height:45px;background:#5198DF;background:linear-gradient(#9599E2, #8BC6EC);border-radius:5px;box-shadow:inset rgba(255,255,255,0.45) 0 1px 0,inset rgba(0,0,0,0.2) 0 -1px 0;width:45px}
 .section{padding:15px 20px;font-size:15px;border-top:1px solid #fff;background:linear-gradient(#fafafa, #EEEEEE 700px);border-radius:0 0 8px 8px;position:relative}
-h1,h2,h3,h4,h5,h6{color:#222;padding:0;margin:0;line-height:1.2;font-family:"Microsoft Jhenghei";line-height:1.2}
+h1,h2,h3,h4,h5,h6{color:#222;padding:0;margin:0 10px;line-height:1.2;font-family:"Microsoft Jhenghei";line-height:1.2}
 p,ul,ol,table,pre,dl{margin:0}
 h1,h2,h3{line-height:1.1}
 h1{font-size:28px}
