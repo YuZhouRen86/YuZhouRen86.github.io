@@ -93,4 +93,4 @@ kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da
 .紫色渐变按钮:hover{color: #FFFFFF;text-shadow:0 0 3px #FFFFFF;box-shadow: 0 0 6px #8621fd;border-radius: 25px;background-color: #8621fd;background-image: linear-gradient(0deg, #8621fd 0%, #ec21ff 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
 .紫色渐变按钮:active{color: #FFFFFF;border-radius: 25px;background-color: #8621fd;background-image: linear-gradient(180deg, #8621fd 0%, #ec21ff 100%);padding: 5px 5px 5px 5px;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
 .按钮链接{margin: 5px 15px 5px 0px;display:inline-block;width: fit-content;width: -webkit-fit-content;width: -moz-fit-content;}
-.redwidenotice{background-color: #FF0000;text-shadow:0 0 3px #FFFF00;text-align:center}
+.redwidenotice{background-color: #FF0000;text-shadow:0 0 3px #FFFF00;text-align:center;padding: 5px 0}
