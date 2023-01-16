@@ -1,0 +1,11 @@
+======================================================
+UPDATES 更新：
+
+0.02：Add 109 Messier Object's Chinese names and WIKIs (doesn't include M 73 because there is not M 73 in SE catalogue).
+0.02：添加109个梅西叶天体的中文名称和信息（不包括M 73，因为SE星表没有M 73）。
+0.03：Add important moons and comets' Chinese names in Solar System; BUGs fix.
+0.03：添加太阳系内主要自然卫星和彗星的中文名称；修正错误。
+0.04：Add some deep sky objects' Chinese names and WIKIs; add Chinese names and WIKIs of moons of Mars; add Chinese names and WIKIs of half stars in Bi Xiu (a Chinese constellation) (about 100 stars); FULLY support of Chinese object names in "Labels"; IMPORTANT BUGs fix.
+0.04：添加部分深空天体的中文名称和信息；添加火星的自然卫星的中文名称和信息；添加一半毕宿恒星的中文名称和信息（约100颗）；完整支持“标签”中的中文星名；重要错误修正。
+0.20：Complete all stars in "Western Tiger" (7 Chinese constellations); add Traditional Chinese Language Pack; BUGs fix.
+0.20：补全所有位于西方白虎（7个星宿）的恒星；添加繁体中文语言包；修正错误。
