@@ -147,11 +147,9 @@ body {
 }
 
 .wrapper {
-  width: device-width;
+  max-width: 1600px;
   margin: 0 auto;
-  background: #FFFFFF;
-  border-radius: 6px;
-  box-shadow: 0 0 10px #7F7F7F;
+  background: transparent;
 }
 
 .header,
@@ -178,11 +176,9 @@ strong {
 }
 
 .header {
-  border-radius: 6px 6px 0 0;
-  background: #FFFFFF;
-  position: relative;
-  padding: 15px 20px;
-  border-bottom: 2px solid #B2D2E1
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1600px;
 }
 
 .header h1 {
@@ -214,7 +210,7 @@ strong {
 }
 
 .header p.view a {
-  color: #06c
+  color: #069
 }
 
 .header p.view small {
@@ -224,23 +220,20 @@ strong {
 .header div {
   margin: 0;
   padding: 1px 0;
-  position: absolute;
   z-index: 6;
-  right: 20px;
-  top: 20px;
+  float: right;
   height: 45px;
   background: #5198DF;
   background: linear-gradient(#9599E2, #8BC6EC);
   border-radius: 5px;
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
-  width: 45px
+  width: 45px;
 }
 
 .section {
-  background-color: #fafafa;
-  padding: 15px 20px;
+  background-color: transparent;
+  padding: 10px 20px;
   font-size: 15px;
-  border-top: 1px solid #fff;
   border-radius: 0 0 8px 8px;
   position: relative
 }
@@ -405,14 +398,19 @@ kbd {
   text-align: center;
   width: device-width;
   margin: 0 auto;
-  padding: 20px 0 15px 0;
+  padding: 0px 0 15px 0;
   color: #6c7989;
   overflow: hidden
 }
 
 .footer a {
-  color: #fff;
+  color: #069;
   font-weight: bold
+}
+
+.footer .竖线 {
+  border-left: 2px solid #069;
+  margin: 0 10px;
 }
 
 @media print,
@@ -422,6 +420,7 @@ screen and (max-width: device-width) {
   }
 
   .wrapper {
+    max-width: 800px;
     border-radius: 0;
     box-shadow: none;
     width: 100%
@@ -743,4 +742,19 @@ div .GitHub图标:active {
   text-shadow: 0 0 3px #FFFF00;
   text-align: center;
   padding: 5px 0
+}
+
+.顶栏包装器 {
+  z-index: 9999;
+  width: 100%;
+  box-shadow: 0 0 8px #7F7F7F;
+  background: #FFFFFF;
+  padding: 18px 0;
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+  top: 0
+}
+
+.顶栏包装器:hover:not(:active) {
+  box-shadow: 0 0 20px #7F7F7F;
 }
