@@ -42,7 +42,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="顶栏包装器">
         <style>
             .header h1,
             .概述1 {
@@ -52,7 +52,10 @@
                 -webkit-text-fill-color: transparent;
                 text-shadow: none
             }
-            @media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+            @media screen and(-ms-high-contrast: active),
+            (-ms-high-contrast: none) {
+
                 .header h1,
                 .概述1 {
                     background: none;
@@ -60,18 +63,21 @@
             }
         </style>
         <div class="header">
-            <img style="align-items:center;margin:auto;float:left;margin-right:10px;" width="60" height="60"
+            <div>
+                <a class="按钮链接" style="display:block;margin:auto 0"
+                    href="https://github.com/YuZhouRen86/Python-Module-Manager/">
+                    <div class="GitHub图标" width="20" height="20"></div>
+                </a>
+            </div>
+            <img style="align-items:center;margin:auto;float:left;margin-right:10px" width="60" height="60"
                 alt="Python模块管理" src="./软件图标.PNG">
 
             <h1>Python模块管理</h1>
 
             <p>便捷、快速的 Python 模块管理工具</p>
-            <div>
-                <a class="按钮链接" style="display:block;margin:auto 0" href="https://github.com/YuZhouRen86/Python-Module-Manager/">
-                    <div class="GitHub图标" width="20" height="20"></div>
-                </a>
-            </div>
         </div>
+    </div>
+    <div class="wrapper">
         <div class="section">
             <!--<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><!--Syntax highlighted code block<span class="gh"># Header 1</span><span class="gu">## Header 2</span><span class="gu">### Header 3</span><span class="p">-</span> Bulleted<span class="p">-</span> List<span class="p">1.</span> Numbered<span class="p">2.</span> List<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span><span class="gu" style="color:#FCC">123</span></code></pre></div></div>-->
             <h1 class="概述1">
@@ -87,9 +93,10 @@
                     </div>
                 </a>
                 <a class="商店下载按钮" style="display:block;margin:auto 10px;"
-                    href="https://apps.microsoft.com/detail/Python%20Module%20Manager/9nlncj64djhj?mode=direct"><img
-                        src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft Store 商店下载"
-                        height=60px /></a>
+                    href="https://apps.microsoft.com/detail/Python%20Module%20Manager/9nlncj64djhj?mode=direct">
+                    <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft Store 商店下载"
+                        width=220px height=60px />
+                </a>
             </div>
             <details class="系统要求">
                 <summary>
@@ -115,13 +122,17 @@
                 <h2 id="介绍"><span class="竖线"></span>介绍</h2>
                 <p><strong>Python模块管理</strong>提供了一种高效的部署 Python 模块的方案，您可使用本程序轻松地安装、卸载、更新模块，无需在终端窗口输入命令。</p>
                 <p>
-                    如果 Python 已安装到系统，本程序将自动识别它们，只需在下拉框中选择所需版本，点击“<strong>确定</strong>”即可。如果您使用 <strong>Embeddable Python</strong>，请在下拉框中选择“<strong>自定义</strong>”选项，并在右侧<strong>输入 Python 根目录</strong>，点击确定。
+                    如果 Python 已安装到系统，本程序将自动识别它们，只需在下拉框中选择所需版本，点击“<strong>确定</strong>”即可。如果您使用 <strong>Embeddable
+                        Python</strong>，请在下拉框中选择“<strong>自定义</strong>”选项，并在右侧<strong>输入 Python 根目录</strong>，点击确定。
                     <br>
                     在“<strong>管理模块</strong>”界面，所有已安装的模块将被列出，您可以卸载、更新它们，或者安装所需模块。
                     <br>
-                    在“<strong>批量管理</strong>”界面，您可以通过一步操作安装或卸载多个模块。在下拉框中选择安装或卸载，在右侧输入要操作的模块，<strong>模块间以空格分割，使用“==”表示版本号</strong>。示例：“<strong>easygui requests=2.0.0</strong>”。
+                    在“<strong>批量管理</strong>”界面，您可以通过一步操作安装或卸载多个模块。在下拉框中选择安装或卸载，在右侧输入要操作的模块，<strong>模块间以空格分割，使用“==”表示版本号</strong>。示例：“<strong>easygui
+                        requests=2.0.0</strong>”。
                 </p>
-                <p><strong>本程序依赖 pip 运作</strong>。pip 未正确安装时，本程序将自动跳转到“<strong>配置pip</strong>”界面，点击“<strong>确定</strong>”下载并安装它。您也可以安装指定版本的 pip 。对于 <strong>Embeddable Python</strong>，在安装 pip 后，请<strong>按照提示完成额外操作</strong>。</p>
+                <p><strong>本程序依赖 pip 运作</strong>。pip
+                    未正确安装时，本程序将自动跳转到“<strong>配置pip</strong>”界面，点击“<strong>确定</strong>”下载并安装它。您也可以安装指定版本的 pip 。对于
+                    <strong>Embeddable Python</strong>，在安装 pip 后，请<strong>按照提示完成额外操作</strong>。</p>
                 <p>本程序根据系统区域设置自动选择索引，使安装更快速。您也可以手动选择。</p>
             </div>
             <div class="框架">
@@ -172,11 +183,10 @@
                     <div class="蓝色渐变按钮" id="HKEPC">HKEPC</div>
                 </a>
             </div>
-            <br>
 
         </div>
     </div>
-    <script src="../宇宙人官网文件/显示页脚.js"></script>
+    <script src="../宇宙人官网文件/修正样式.js"></script>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
 
