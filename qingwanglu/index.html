@@ -223,6 +223,7 @@
         var jumpToPageInput = document.getElementById('jump-to-page');
         var jumpBtn = document.getElementById('jump-btn');
         var totalPagesText = document.getElementById('total-pages-text');
+        var allCategoryBtn = document.querySelector('.category-btn[data-category="all"]');
 
         // 事件监听
         document.addEventListener('DOMContentLoaded', init);
@@ -309,6 +310,19 @@
             // 更新统计信息
             updateStats();
 
+            allCategoryBtn.addEventListener('click', () => {
+                // 更新活跃状态
+                document.querySelectorAll('.category-btn').forEach(b => {
+                    b.classList.remove('active', 'bg-primary', 'text-white');
+                    b.classList.add('bg-gray-100', 'text-gray-700');
+                });
+                allCategoryBtn.classList.add('active', 'bg-primary', 'text-white');
+                allCategoryBtn.classList.remove('bg-gray-100', 'text-gray-700');
+
+                currentCategory = 'all';
+                currentPage = 1; // 重置到第一页
+                renderBookmarks();
+            });
             // 生成分类按钮
             renderCategoryButtons();
         }
