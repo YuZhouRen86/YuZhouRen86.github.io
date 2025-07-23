@@ -276,18 +276,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "Outlook",
-    "url": "https://outlook.live.com/owa/",
-    "description": "微软邮箱平台",
-    "category": "邮箱平台",
-    "tags": [
-      "邮件",
-      "办公",
-      "微软"
-    ],
-    "updated": "2025-07-23T20:00:00Z"
-  },
-  {
     "name": "今日头条",
     "url": "https://www.toutiao.com/",
     "description": "个性化资讯推荐平台",
@@ -519,7 +507,7 @@
     "name": "支付宝",
     "url": "https://www.alipay.com/",
     "description": "第三方支付平台",
-    "category": "金融服务",
+    "category": "支付工具",
     "tags": [
       "支付",
       "金融",
@@ -550,18 +538,6 @@
       "电子钱包"
     ],
     "updated": "2025-07-23T20:00:00Z"
-  },
-  {
-    "name": "携程",
-    "url": "https://www.ctrip.com/",
-    "description": "在线旅游服务平台",
-    "category": "旅游服务",
-    "tags": [
-      "旅游",
-      "出行",
-      "预订"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
   },
   {
     "name": "小红书",
@@ -2292,30 +2268,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "酷狗音乐",
-    "url": "https://www.kugou.com/",
-    "description": "数字音乐平台",
-    "category": "音乐娱乐",
-    "tags": [
-      "音乐",
-      "娱乐",
-      "下载"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "酷我音乐",
-    "url": "https://www.kuwo.cn/",
-    "description": "在线音乐平台",
-    "category": "音乐娱乐",
-    "tags": [
-      "音乐",
-      "娱乐",
-      "电台"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "咪咕音乐",
     "url": "https://music.migu.cn/",
     "description": "音乐流媒体平台",
@@ -2355,7 +2307,7 @@
     "name": "Gitee",
     "url": "https://gitee.com/",
     "description": "国内开源代码托管平台",
-    "category": "开发工具",
+    "category": "技术社区",
     "tags": [
       "代码托管",
       "Gitee",
@@ -3123,7 +3075,7 @@
     "name": "WPS",
     "url": "https://www.wps.com/",
     "description": "免费全能办公软件",
-    "category": "办公软件",
+    "category": "办公工具",
     "tags": [
       "办公",
       "文档编辑",
@@ -3147,13 +3099,37 @@
     "name": "126网易免费邮",
     "url": "https://www.126.com/",
     "description": "网易旗下免费邮箱服务",
-    "category": "邮件工具",
+    "category": "邮箱平台",
     "tags": [
       "邮箱",
       "免费",
       "网易"
     ],
     "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Outlook",
+    "url": "https://outlook.live.com/owa/",
+    "description": "微软邮箱平台",
+    "category": "邮箱平台",
+    "tags": [
+      "邮件",
+      "办公",
+      "微软"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
+    "name": "Yandex Mail",
+    "url": "https://mail.yandex.com/",
+    "description": "俄罗斯Yandex公司提供的电子邮件服务",
+    "category": "邮箱平台",
+    "tags": [
+      "邮箱",
+      "电子邮件",
+      "免费邮箱"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
   },
   {
     "name": "GIMP",
@@ -3206,7 +3182,7 @@
   {
     "name": "Blender",
     "url": "https://www.blender.org/",
-    "description": "开源3D创作套件",
+    "description": "开源3D创作软件",
     "category": "设计工具",
     "tags": [
       "3D建模",
@@ -3218,8 +3194,8 @@
   {
     "name": "希沃白板",
     "url": "https://easinote.seewo.com/",
-    "description": "教育数字化工具及服务平台",
-    "category": "教育工具",
+    "description": "教育数字化软件",
+    "category": "教学工具",
     "tags": [
       "教育",
       "教学",
@@ -3230,8 +3206,8 @@
   {
     "name": "希沃轻白板",
     "url": "https://e.seewo.com/product/EasiNote3c",
-    "description": "精简版网络教学辅助工具",
-    "category": "教育工具",
+    "description": "精简版网络教学辅助软件",
+    "category": "教学工具",
     "tags": [
       "教育",
       "教学辅助",
@@ -3241,9 +3217,9 @@
   },
   {
     "name": "GeoGebra",
-    "url": "https://beta.geogebra.org/",
-    "description": "跨平台动态数学软件",
-    "category": "教育工具",
+    "url": "https://www.geogebra.org/",
+    "description": "跨平台动态数学平台",
+    "category": "教学工具",
     "tags": [
       "数学",
       "教育",
@@ -3322,5 +3298,149 @@
       "智能拼写"
     ],
     "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "360压缩",
+    "url": "https://www.360totalsecurity.com/360zip/",
+    "description": "免费压缩解压工具",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "免费"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "Bandizip",
+    "url": "https://www.bandisoft.com/bandizip/",
+    "description": "高效多格式压缩工具",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "多格式"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "WinRAR",
+    "url": "https://www.win-rar.com/",
+    "description": "经典老牌压缩软件",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "老牌"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "7-Zip",
+    "url": "https://www.7-zip.org/",
+    "description": "开源免费压缩工具",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "开源"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "Listary",
+    "url": "https://www.listary.com/",
+    "description": "高效文件快速搜索工具",
+    "category": "文件工具",
+    "tags": [
+      "文件搜索",
+      "高效",
+      "快捷启动"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "Everything",
+    "url": "https://www.voidtools.com/zh-cn/",
+    "description": "闪电般文件工具",
+    "category": "文件工具",
+    "tags": [
+      "文件搜索",
+      "高速",
+      "轻量"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "uTools",
+    "url": "https://u.tools/",
+    "description": "生产力工具聚合平台",
+    "category": "文件工具",
+    "tags": [
+      "效率",
+      "插件",
+      "多功能"
+    ],
+    "updated": "2025-07-23T11:00:00Z"
+  },
+  {
+    "name": "AnyTXT Searcher",
+    "url": "https://anytxt.net/",
+    "description": "全文本内容搜索工具",
+    "category": "文件工具",
+    "tags": [
+      "文本搜索",
+      "全格式",
+      "高效"
+    ],
+    "updated": "2025-07-23T11:00:00Z"
+  },
+  {
+    "name": "Wox",
+    "url": "https://wox.one/",
+    "description": "开源快捷启动搜索工具",
+    "category": "文件工具",
+    "tags": [
+      "搜索",
+      "快捷启动",
+      "开源"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "WinMerge",
+    "url": "https://winmerge.org/?lang=zh_cn",
+    "description": "Windows文件比较工具",
+    "category": "文件工具",
+    "tags": [
+      "文件比较",
+      "差异分析",
+      "Windows"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "Meld",
+    "url": "https://meldmerge.org/",
+    "description": "跨平台文件对比工具",
+    "category": "文件工具",
+    "tags": [
+      "文件对比",
+      "跨平台",
+      "开源"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "Diffuse",
+    "url": "https://diffuse.sourceforge.net/",
+    "description": "轻量文本差异比较工具",
+    "category": "文件工具",
+    "tags": [
+      "文本比较",
+      "轻量",
+      "多语言"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
   }
 ]
