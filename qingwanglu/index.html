@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <!-- 引入Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 引入Font Awesome -->
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../宇宙人官网文件/style.css">
+
     <!-- Tailwind配置 -->
     <script>
         tailwind.config = {
@@ -28,7 +30,7 @@
             }
         }
     </script>
-    
+
     <!-- 自定义工具类 -->
     <style type="text/tailwindcss">
         @layer utilities {
@@ -53,31 +55,28 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-dark min-h-screen flex flex-col">
+
+<body class="text-dark min-h-screen flex flex-col">
     <!-- 导航栏 -->
-    <header class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300" id="navbar">
-        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
-            <div class="flex items-center mb-4 md:mb-0">
-                <i class="fa fa-bookmark text-primary text-3xl mr-3"></i>
-                <h1 class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text">清网录（测试版）</h1>
-            </div>
-            
-            <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-                <div class="relative flex-grow sm:flex-grow-0">
-                    <input 
-                        type="text" 
-                        id="search-input" 
-                        placeholder="搜索网址、分类或标签..." 
-                        class="input-primary pl-10"
-                    >
-                    <i class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-                </div>
-            </div>
+    <div class="顶栏包装器">
+        <style>
+        </style>
+        <div class="header">
+            <h1>清网录（测试版）</h1>
+
+            <p>一键直达官方网站的超级入口</p>
         </div>
-    </header>
+    </div>
 
     <!-- 主内容区 -->
-    <main class="flex-grow container mx-auto px-4 py-8">
+    <div class="wrapper flex-grow container mx-auto px-4 py-8">
+        <div class="relative flex-grow sm:flex-grow-0"
+            style="min-width: 220px; background: transparent; box-shadow: none; border-bottom: 15px;">
+            <input type="text" id="search-input" placeholder="搜索网址、分类或标签..." class="input-primary pl-10"
+                style="padding-left: 30px;">
+            <i class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+        </div>
+        <br>
         <!-- 统计信息 -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div class="bg-white rounded-xl shadow-sm p-6 card-hover">
@@ -91,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bg-white rounded-xl shadow-sm p-6 card-hover">
                 <div class="flex items-center justify-between">
                     <div>
@@ -103,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="bg-white rounded-xl shadow-sm p-6 card-hover">
                 <div class="flex items-center justify-between">
                     <div>
@@ -116,22 +115,24 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- 分类筛选 -->
         <div class="mb-8 overflow-x-auto pb-2">
             <div class="flex gap-2 min-w-max">
-                <button class="category-btn active px-4 py-2 rounded-full bg-primary text-white text-sm font-medium" data-category="all">
+                <button class="category-btn active px-4 py-2 rounded-full bg-primary text-white text-sm font-medium"
+                    data-category="all">
                     全部
                 </button>
                 <!-- 分类按钮将通过JS动态生成 -->
             </div>
         </div>
-        
+
         <!-- 搜索结果提示 -->
         <div id="search-results-info" class="mb-6 hidden">
-            <p class="text-gray-500 italic">显示包含 "<span id="search-term"></span>" 的结果，共 <span id="search-results-count"></span> 项</p>
+            <p class="text-gray-500 italic">显示包含 "<span id="search-term"></span>" 的结果，共 <span
+                    id="search-results-count"></span> 项</p>
         </div>
-        
+
         <!-- 网址列表 -->
         <div id="bookmarks-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <!-- 初始状态提示 -->
@@ -142,10 +143,10 @@
                 <h3 class="text-xl font-semibold mb-2">未加载到数据</h3>
                 <p class="text-gray-500 max-w-md mb-6">请确保数据.json文件存在于正确位置</p>
             </div>
-            
+
             <!-- 网址卡片将通过JS动态生成 -->
         </div>
-        
+
         <!-- 分页控件 -->
         <div id="pagination-container" class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4 hidden">
             <div class="flex items-center gap-2">
@@ -159,32 +160,27 @@
                     <i class="fa fa-chevron-right"></i>
                 </button>
             </div>
-            
+
             <div class="flex items-center gap-2 w-full sm:w-auto">
                 <span class="text-gray-600">跳转到</span>
-                <input 
-                    type="number" 
-                    id="jump-to-page" 
-                    min="1" 
-                    class="input-primary w-20 text-center"
-                >
+                <input type="number" id="jump-to-page" min="1" class="input-primary w-20 text-center">
                 <span class="text-gray-600">页</span>
                 <button id="jump-btn" class="btn-primary px-3 py-1 text-sm">
                     确定
                 </button>
             </div>
-            
+
             <div class="text-gray-500 text-sm">
                 共 <span id="total-pages-text">0</span> 页
             </div>
         </div>
-        
+
         <!-- 加载中状态 -->
         <div id="loading-state" class="col-span-full flex flex-col items-center justify-center py-16 hidden">
             <div class="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full animate-spin mb-6"></div>
             <p class="text-gray-500">加载中...</p>
         </div>
-        
+
         <!-- 无搜索结果状态 -->
         <div id="no-results" class="col-span-full flex flex-col items-center justify-center py-16 hidden">
             <div class="w-24 h-24 rounded-full bg-gray-100 flex items-center justify-center mb-6">
@@ -193,51 +189,13 @@
             <h3 class="text-xl font-semibold mb-2">未找到匹配结果</h3>
             <p class="text-gray-500 max-w-md text-center">尝试使用不同的搜索词或检查拼写</p>
         </div>
-    </main>
+    </div>
 
-    <!-- 页脚 -->
-    <footer class="bg-dark text-white py-8 mt-12">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <div class="flex items-center">
-                        <i class="fa fa-bookmark text-primary text-2xl mr-2"></i>
-                        <span class="font-bold text-lg">净网直达</span>
-                    </div>
-                    <p class="text-gray-400 text-sm mt-1">抵制盗版，直达官网</p>
-                </div>
-                
-                <div class="flex flex-col md:flex-row gap-6 md:gap-12">
-                    <div>
-                        <h4 class="font-semibold mb-2">功能</h4>
-                        <ul class="text-gray-400 text-sm space-y-1">
-                            <li>• 搜索网址</li>
-                            <li>• 分类浏览</li>
-                            <li>• 分页查看</li>
-                        </ul>
-                    </div>
-                    
-                    <div>
-                        <h4 class="font-semibold mb-2">关于</h4>
-                        <ul class="text-gray-400 text-sm space-y-1">
-                            <li>• 纯净无广告</li>
-                            <li>• 直达官方网站</li>
-                            <li>• 抵制盗版内容</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400 text-sm">
-                <p>© 2023 净网直达 - 让网络访问更纯净、更高效</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script>
-        // 全局变量
-        let bookmarks = [];
+    <script src="../宇宙人官网文件/修正样式.js">
+            <!-- JavaScript -->
+            < script >
+            // 全局变量
+            let bookmarks = [];
         let categories = new Set();
         let currentCategory = 'all';
         let currentSearchTerm = '';
@@ -245,7 +203,7 @@
         const itemsPerPage = 20; // 每页显示20个网址
         let totalPages = 1;
         const maxPageButtons = 10; // 最多显示10个页码按钮
-        
+
         // DOM元素
         const searchInput = document.getElementById('search-input');
         const bookmarksContainer = document.getElementById('bookmarks-container');
@@ -266,7 +224,7 @@
         const jumpToPageInput = document.getElementById('jump-to-page');
         const jumpBtn = document.getElementById('jump-btn');
         const totalPagesText = document.getElementById('total-pages-text');
-        
+
         // 事件监听
         document.addEventListener('DOMContentLoaded', init);
         searchInput.addEventListener('input', handleSearch);
@@ -276,18 +234,7 @@
         jumpToPageInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') handleJump();
         });
-        
-        // 页面滚动监听 - 改变导航栏样式
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 10) {
-                navbar.classList.add('py-2', 'shadow');
-                navbar.classList.remove('py-4', 'shadow-sm');
-            } else {
-                navbar.classList.add('py-4', 'shadow-sm');
-                navbar.classList.remove('py-2', 'shadow');
-            }
-        });
-        
+
         // 初始化
         function init() {
             // 尝试从localStorage加载数据，如果没有则加载数据.json
@@ -305,15 +252,15 @@
                     console.error('Failed to parse saved bookmarks:', e);
                 }
             }
-            
+
             // 加载数据.json
             loadDataFromJson();
         }
-        
+
         // 从JSON文件加载数据
         function loadDataFromJson() {
             showLoading();
-            
+
             fetch('数据.json')
                 .then(response => {
                     if (!response.ok) {
@@ -326,18 +273,18 @@
                     if (!Array.isArray(data)) {
                         throw new Error('数据格式不正确，应为数组');
                     }
-                    
+
                     // 简单验证每个条目
                     data.forEach((item, index) => {
                         if (!item.url || !item.name) {
-                            throw new Error(`第${index+1}个条目缺少必要字段（name或url）`);
+                            throw new Error(`第${index + 1}个条目缺少必要字段（name或url）`);
                         }
                     });
-                    
+
                     // 保存数据
                     bookmarks = data;
                     localStorage.setItem('bookmarksData', JSON.stringify(bookmarks));
-                    
+
                     // 处理并渲染
                     processBookmarks();
                     renderBookmarks();
@@ -349,7 +296,7 @@
                     showToast(`加载失败: ${error.message}`);
                 });
         }
-        
+
         // 处理书签数据
         function processBookmarks() {
             // 提取所有分类
@@ -359,19 +306,19 @@
                     categories.add(bookmark.category);
                 }
             });
-            
+
             // 更新统计信息
             updateStats();
-            
+
             // 生成分类按钮
             renderCategoryButtons();
         }
-        
+
         // 更新统计信息
         function updateStats() {
             totalCountEl.textContent = bookmarks.length;
             categoryCountEl.textContent = categories.size;
-            
+
             // 检查是否有最后更新时间
             const hasDates = bookmarks.some(b => b.updated);
             if (hasDates) {
@@ -379,7 +326,7 @@
                 const sortedByDate = [...bookmarks]
                     .filter(b => b.updated)
                     .sort((a, b) => new Date(b.updated) - new Date(a.updated));
-                
+
                 if (sortedByDate.length > 0) {
                     const lastUpdated = new Date(sortedByDate[0].updated);
                     lastUpdatedEl.textContent = formatDate(lastUpdated);
@@ -388,15 +335,15 @@
                 lastUpdatedEl.textContent = '无数据';
             }
         }
-        
+
         // 渲染分类按钮
         function renderCategoryButtons() {
             const categoryContainer = document.querySelector('.category-btn').parentElement;
-            
+
             // 清除现有分类按钮（保留"全部"按钮）
             const existingCategoryBtns = document.querySelectorAll('.category-btn:not([data-category="all"])');
             existingCategoryBtns.forEach(btn => btn.remove());
-            
+
             // 添加新的分类按钮
             Array.from(categories).forEach(category => {
                 const btn = document.createElement('button');
@@ -411,7 +358,7 @@
                     });
                     btn.classList.add('active', 'bg-primary', 'text-white');
                     btn.classList.remove('bg-gray-100', 'text-gray-700');
-                    
+
                     currentCategory = category;
                     currentPage = 1; // 重置到第一页
                     renderBookmarks();
@@ -419,25 +366,25 @@
                 categoryContainer.appendChild(btn);
             });
         }
-        
+
         // 处理搜索
         function handleSearch(e) {
             currentSearchTerm = e.target.value.trim().toLowerCase();
             currentPage = 1; // 重置到第一页
             renderBookmarks();
         }
-        
+
         // 过滤书签
         function filterBookmarks() {
             let filtered = [...bookmarks];
-            
+
             // 按分类过滤
             if (currentCategory !== 'all') {
-                filtered = filtered.filter(bookmark => 
+                filtered = filtered.filter(bookmark =>
                     bookmark.category && bookmark.category.toLowerCase() === currentCategory.toLowerCase()
                 );
             }
-            
+
             // 按搜索词过滤
             if (currentSearchTerm) {
                 const searchTerm = currentSearchTerm.toLowerCase();
@@ -446,17 +393,17 @@
                     const matchesName = bookmark.name.toLowerCase().includes(searchTerm);
                     const matchesUrl = bookmark.url.toLowerCase().includes(searchTerm);
                     const matchesCategory = bookmark.category && bookmark.category.toLowerCase().includes(searchTerm);
-                    const matchesTags = bookmark.tags && bookmark.tags.some(tag => 
+                    const matchesTags = bookmark.tags && bookmark.tags.some(tag =>
                         tag.toLowerCase().includes(searchTerm)
                     );
-                    
+
                     return matchesName || matchesUrl || matchesCategory || matchesTags;
                 });
             }
-            
+
             return filtered;
         }
-        
+
         // 计算分页
         function getPaginatedResults(filteredBookmarks) {
             totalPages = Math.ceil(filteredBookmarks.length / itemsPerPage);
@@ -464,37 +411,37 @@
             const endIndex = startIndex + itemsPerPage;
             return filteredBookmarks.slice(startIndex, endIndex);
         }
-        
+
         // 更新分页控件
         function updatePagination(filteredCount) {
             // 计算总页数
             totalPages = Math.ceil(filteredCount / itemsPerPage);
-            
+
             // 更新总页数文本
             totalPagesText.textContent = totalPages;
-            
+
             // 更新跳转输入框
             jumpToPageInput.value = currentPage;
             jumpToPageInput.max = totalPages;
-            
+
             // 显示或隐藏分页控件
             if (totalPages <= 1) {
                 paginationContainer.classList.add('hidden');
                 return;
             }
-            
+
             paginationContainer.classList.remove('hidden');
-            
+
             // 更新上一页/下一页按钮状态
             prevPageBtn.disabled = currentPage === 1;
             nextPageBtn.disabled = currentPage === totalPages;
-            
+
             // 清空现有页码
             pageNumbersContainer.innerHTML = '';
-            
+
             // 生成页码按钮，最多显示10个，超出部分用省略号
             let pagesToShow = [];
-            
+
             // 总页数不超过maxPageButtons，显示所有页码
             if (totalPages <= maxPageButtons) {
                 for (let i = 1; i <= totalPages; i++) {
@@ -504,7 +451,7 @@
                 // 总页数超过maxPageButtons，需要显示省略号
                 const visiblePages = maxPageButtons - 2; // 减去首尾页和省略号
                 let startPage, endPage;
-                
+
                 // 当前页靠近首页
                 if (currentPage <= visiblePages / 2 + 1) {
                     startPage = 1;
@@ -528,7 +475,7 @@
                     pagesToShow.push('...', totalPages);
                 }
             }
-            
+
             // 添加页码按钮
             pagesToShow.forEach(page => {
                 if (page === '...') {
@@ -550,7 +497,7 @@
                 }
             });
         }
-        
+
         // 上一页
         function goToPrevPage() {
             if (currentPage > 1) {
@@ -559,7 +506,7 @@
                 scrollToTop();
             }
         }
-        
+
         // 下一页
         function goToNextPage() {
             if (currentPage < totalPages) {
@@ -568,23 +515,23 @@
                 scrollToTop();
             }
         }
-        
+
         // 处理跳转
         function handleJump() {
             let page = parseInt(jumpToPageInput.value);
-            
+
             // 验证输入
             if (isNaN(page) || page < 1 || page > totalPages) {
                 showToast(`请输入1到${totalPages}之间的页码`);
                 jumpToPageInput.value = currentPage;
                 return;
             }
-            
+
             currentPage = page;
             renderBookmarks();
             scrollToTop();
         }
-        
+
         // 滚动到顶部
         function scrollToTop() {
             window.scrollTo({
@@ -592,14 +539,14 @@
                 behavior: 'smooth'
             });
         }
-        
+
         // 渲染书签
         function renderBookmarks() {
             hideAllStates();
-            
+
             const filteredBookmarks = filterBookmarks();
             const paginatedBookmarks = getPaginatedResults(filteredBookmarks);
-            
+
             // 更新搜索结果信息
             if (currentSearchTerm) {
                 searchTermEl.textContent = currentSearchTerm;
@@ -608,10 +555,10 @@
             } else {
                 searchResultsInfo.classList.add('hidden');
             }
-            
+
             // 清空容器
             bookmarksContainer.innerHTML = '';
-            
+
             if (filteredBookmarks.length === 0) {
                 // 如果有搜索词或选择了特定分类但没有结果
                 if (currentSearchTerm || currentCategory !== 'all') {
@@ -623,24 +570,24 @@
                 paginationContainer.classList.add('hidden');
                 return;
             }
-            
+
             // 渲染当前页的书签
             paginatedBookmarks.forEach(bookmark => {
                 const card = createBookmarkCard(bookmark);
                 bookmarksContainer.appendChild(card);
             });
-            
+
             // 更新分页控件
             updatePagination(filteredBookmarks.length);
-            
+
             hideLoading();
         }
-        
+
         // 创建书签卡片
         function createBookmarkCard(bookmark) {
             const card = document.createElement('div');
             card.className = 'bg-white rounded-xl shadow-sm overflow-hidden card-hover';
-            
+
             // 提取域名作为卡片标题的一部分
             let domain = '';
             try {
@@ -649,7 +596,7 @@
             } catch (e) {
                 domain = bookmark.url;
             }
-            
+
             // 构建标签HTML
             let tagsHtml = '';
             if (bookmark.tags && bookmark.tags.length > 0) {
@@ -663,7 +610,7 @@
                 });
                 tagsHtml += '</div>';
             }
-            
+
             // 设置卡片内容
             card.innerHTML = `
                 <div class="p-5">
@@ -703,28 +650,28 @@
                     </div>
                 </div>
             `;
-            
+
             return card;
         }
-        
+
         // 显示加载状态
         function showLoading() {
             hideAllStates();
             loadingState.classList.remove('hidden');
         }
-        
+
         // 隐藏加载状态
         function hideLoading() {
             loadingState.classList.add('hidden');
         }
-        
+
         // 隐藏所有状态
         function hideAllStates() {
             emptyState.classList.add('hidden');
             loadingState.classList.add('hidden');
             noResults.classList.add('hidden');
         }
-        
+
         // 格式化日期
         function formatDate(date) {
             return date.toLocaleDateString('zh-CN', {
@@ -733,7 +680,7 @@
                 day: 'numeric'
             });
         }
-        
+
         // 显示提示消息
         function showToast(message) {
             // 创建toast元素
@@ -741,12 +688,12 @@
             toast.className = 'fixed bottom-4 right-4 bg-dark text-white px-4 py-2 rounded-lg shadow-lg z-50 transform translate-y-10 opacity-0 transition-all duration-300';
             toast.textContent = message;
             document.body.appendChild(toast);
-            
+
             // 显示toast
             setTimeout(() => {
                 toast.classList.remove('translate-y-10', 'opacity-0');
             }, 10);
-            
+
             // 3秒后隐藏
             setTimeout(() => {
                 toast.classList.add('translate-y-10', 'opacity-0');
@@ -757,4 +704,5 @@
         }
     </script>
 </body>
+
 </html>
