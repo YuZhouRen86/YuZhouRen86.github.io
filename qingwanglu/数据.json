@@ -15,7 +15,7 @@
     "name": "火绒安全",
     "url": "https://www.huorong.cn/",
     "description": "轻量高效的安全工具",
-    "category": "安全软件",
+    "category": "安全防护",
     "tags": [
       "安全",
       "火绒",
@@ -27,7 +27,7 @@
     "name": "卡巴斯基",
     "url": "https://www.kaspersky.com.cn/",
     "description": "知名老牌杀毒软件",
-    "category": "安全软件",
+    "category": "安全防护",
     "tags": [
       "安全",
       "杀毒",
@@ -142,6 +142,18 @@
       "资讯"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "求闻百科",
+    "url": "https://www.qiuwenbaike.cn/",
+    "description": "中文网络百科全书",
+    "category": "参考工具",
+    "tags": [
+      "百科",
+      "知识",
+      "中文"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
   },
   {
     "name": "必应",
@@ -262,6 +274,30 @@
       "零售"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "闲鱼",
+    "url": "https://www.goofish.com/",
+    "description": "知名二手交易平台",
+    "category": "电子商务",
+    "tags": [
+      "二手交易",
+      "闲置物品",
+      "C2C"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
+    "name": "转转",
+    "url": "https://www.zhuanzhuan.com/",
+    "description": "国内领先的二手电商平台",
+    "category": "电子商务",
+    "tags": [
+      "二手交易",
+      "手机3C",
+      "官方验机"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
   },
   {
     "name": "金数据",
@@ -423,7 +459,7 @@
     "name": "微信",
     "url": "https://mp.weixin.qq.com/",
     "description": "跨平台通讯工具",
-    "category": "社交平台",
+    "category": "通讯工具",
     "tags": [
       "通讯",
       "社交",
@@ -435,7 +471,7 @@
     "name": "QQ",
     "url": "https://im.qq.com/",
     "description": "经典即时通讯社交软件",
-    "category": "社交平台",
+    "category": "通讯工具",
     "tags": [
       "社交",
       "通讯",
@@ -447,7 +483,7 @@
     "name": "Snapchat",
     "url": "https://www.snapchat.com/",
     "description": "阅后即焚照片分享应用",
-    "category": "社交软件",
+    "category": "通讯工具",
     "tags": [
       "社交",
       "阅后即焚",
@@ -459,7 +495,7 @@
     "name": "VK",
     "url": "https://vk.com/",
     "description": "俄罗斯主流社交平台",
-    "category": "社交平台",
+    "category": "通讯工具",
     "tags": [
       "社交",
       "俄罗斯",
@@ -514,6 +550,30 @@
       "理财"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "微信支付",
+    "url": "https://pay.weixin.qq.com/",
+    "description": "腾讯旗下第三方支付平台",
+    "category": "支付工具",
+    "tags": [
+      "移动支付",
+      "微信生态",
+      "快捷支付"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://www.paypal.com/c2/",
+    "description": "全球知名在线支付平台",
+    "category": "支付工具",
+    "tags": [
+      "国际支付",
+      "跨境交易",
+      "电子钱包"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
   },
   {
     "name": "携程",
@@ -1323,7 +1383,7 @@
     "name": "百度贴吧",
     "url": "https://tieba.baidu.com/",
     "description": "兴趣主题社区",
-    "category": "社交社区",
+    "category": "社交论坛",
     "tags": [
       "社区",
       "兴趣",
@@ -2196,18 +2256,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "网易云音乐",
-    "url": "https://music.163.com/",
-    "description": "音乐平台",
-    "category": "音乐娱乐",
-    "tags": [
-      "音乐",
-      "社交",
-      "娱乐"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "QQ音乐",
     "url": "https://y.qq.com/",
     "description": "在线音乐平台",
@@ -2784,6 +2832,42 @@
     "updated": "2025-07-23T19:00:00Z"
   },
   {
+    "name": "Geek Uninstaller",
+    "url": "https://geekuninstaller.com/",
+    "description": "轻量级第三方卸载工具",
+    "category": "系统工具",
+    "tags": [
+      "卸载工具",
+      "系统优化",
+      "强制卸载"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "CCleaner",
+    "url": "https://www.ccleaner.com/zh-cn",
+    "description": "系统垃圾清理优化工具",
+    "category": "系统工具",
+    "tags": [
+      "清理",
+      "优化",
+      "安全"
+    ],
+    "updated": "2025-07-24T16:00:00Z"
+  },
+  {
+    "name": "Advanced SystemCare Free",
+    "url": "https://www.iobit.com/zh/advancedsystemcarefree.php",
+    "description": "系统清理优化免费工具",
+    "category": "系统工具",
+    "tags": [
+      "系统优化",
+      "清理",
+      "免费"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
     "name": "360驱动大师",
     "url": "https://driver.360.cn/",
     "description": "360官方驱动工具",
@@ -2828,18 +2912,6 @@
       "播放器",
       "老牌",
       "多格式"
-    ],
-    "updated": "2025-07-23T10:00:00Z"
-  },
-  {
-    "name": "QQ影音",
-    "url": "https://player.qq.com/",
-    "description": "腾讯出品的影音播放器",
-    "category": "本地播放器",
-    "tags": [
-      "播放器",
-      "腾讯",
-      "简洁"
     ],
     "updated": "2025-07-23T10:00:00Z"
   },
@@ -2998,5 +3070,41 @@
       "小众"
     ],
     "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "VMware",
+    "url": "https://www.vmware.com/cn.html",
+    "description": "免费专业虚拟机软件",
+    "category": "虚拟化工具",
+    "tags": [
+      "虚拟机",
+      "专业",
+      "商用"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "VirtualBox",
+    "url": "https://www.virtualbox.org/",
+    "description": "免费开源虚拟机工具",
+    "category": "虚拟化工具",
+    "tags": [
+      "虚拟机",
+      "开源",
+      "免费"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "QEMU",
+    "url": "https://www.qemu.org/",
+    "description": "免费跨平台虚拟化模拟器",
+    "category": "虚拟化工具",
+    "tags": [
+      "虚拟化",
+      "跨平台",
+      "模拟器"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
   }
 ]
