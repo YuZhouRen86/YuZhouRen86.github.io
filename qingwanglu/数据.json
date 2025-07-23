@@ -12,6 +12,30 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "火绒安全",
+    "url": "https://www.huorong.cn/",
+    "description": "轻量高效的安全工具",
+    "category": "安全软件",
+    "tags": [
+      "安全",
+      "火绒",
+      "轻量"
+    ],
+    "updated": "2025-07-23T15:00:00Z"
+  },
+  {
+    "name": "卡巴斯基",
+    "url": "https://www.kaspersky.com.cn/",
+    "description": "知名老牌杀毒软件",
+    "category": "安全软件",
+    "tags": [
+      "安全",
+      "杀毒",
+      "老牌"
+    ],
+    "updated": "2025-07-23T15:00:00Z"
+  },
+  {
     "name": "58同城",
     "url": "https://www.58.com/",
     "description": "分类信息及生活服务平台",
@@ -396,16 +420,52 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "微信公众平台",
+    "name": "微信",
     "url": "https://mp.weixin.qq.com/",
-    "description": "微信公众号管理平台",
+    "description": "跨平台通讯工具",
     "category": "社交平台",
     "tags": [
-      "微信",
-      "公众号",
-      "社交"
+      "通讯",
+      "社交",
+      "腾讯"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "QQ",
+    "url": "https://im.qq.com/",
+    "description": "经典即时通讯社交软件",
+    "category": "社交平台",
+    "tags": [
+      "社交",
+      "通讯",
+      "娱乐"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "Snapchat",
+    "url": "https://www.snapchat.com/",
+    "description": "阅后即焚照片分享应用",
+    "category": "社交软件",
+    "tags": [
+      "社交",
+      "阅后即焚",
+      "AR滤镜"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "VK",
+    "url": "https://vk.com/",
+    "description": "俄罗斯主流社交平台",
+    "category": "社交平台",
+    "tags": [
+      "社交",
+      "俄罗斯",
+      "综合平台"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
   },
   {
     "name": "微博",
@@ -1719,7 +1779,7 @@
     "name": "迅雷",
     "url": "https://www.xunlei.com/",
     "description": "下载工具和服务",
-    "category": "下载软件",
+    "category": "下载工具",
     "tags": [
       "下载",
       "工具",
@@ -1731,7 +1791,7 @@
     "name": "IDM",
     "url": "https://www.internetdownloadmanager.com/",
     "description": "下载管理工具",
-    "category": "下载软件",
+    "category": "下载工具",
     "tags": [
       "下载",
       "工具",
@@ -1743,7 +1803,7 @@
     "name": "百度翻译",
     "url": "https://fanyi.baidu.com/",
     "description": "在线翻译工具",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "翻译",
       "工具",
@@ -1755,7 +1815,7 @@
     "name": "有道翻译",
     "url": "https://fanyi.youdao.com/",
     "description": "在线翻译服务",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "翻译",
       "工具",
@@ -1767,7 +1827,7 @@
     "name": "DeepL翻译",
     "url": "https://www.deepl.com/translator",
     "description": "AI翻译服务",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "翻译",
       "AI",
@@ -1779,7 +1839,7 @@
     "name": "必应翻译",
     "url": "https://cn.bing.com/translator",
     "description": "在线翻译工具",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "翻译",
       "工具",
@@ -1791,7 +1851,7 @@
     "name": "搜狗翻译",
     "url": "https://fanyi.sogou.com/",
     "description": "在线翻译服务",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "翻译",
       "工具",
@@ -1803,7 +1863,7 @@
     "name": "金山词霸",
     "url": "https://www.iciba.com/",
     "description": "在线词典和翻译工具",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "词典",
       "翻译",
@@ -1815,7 +1875,7 @@
     "name": "有道词典",
     "url": "https://dict.youdao.com/",
     "description": "在线词典服务",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "词典",
       "翻译",
@@ -1827,7 +1887,7 @@
     "name": "汉典",
     "url": "https://www.zdic.net/",
     "description": "汉语字典词典",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "汉语",
       "字典",
@@ -1839,7 +1899,7 @@
     "name": "成语词典",
     "url": "https://chengyu.911cha.com/",
     "description": "成语查询工具",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "成语",
       "词典",
@@ -1851,7 +1911,7 @@
     "name": "新华字典",
     "url": "https://zidian.xinhuaonline.com/",
     "description": "在线新华字典",
-    "category": "工具服务",
+    "category": "语言服务",
     "tags": [
       "字典",
       "汉语",
@@ -2230,18 +2290,6 @@
       "开源"
     ],
     "updated": "2025-07-23T17:00:00Z"
-  },
-  {
-    "name": "掘金",
-    "url": "https://juejin.cn",
-    "description": "开发者社区",
-    "category": "开发资源",
-    "tags": [
-      "编程",
-      "前端",
-      "后端"
-    ],
-    "updated": "2025-07-23T09:15:00Z"
   },
   {
     "name": "Tailwind CSS",
@@ -2626,5 +2674,329 @@
       "Android"
     ],
     "updated": "2025-07-23T16:18:00Z"
+  },
+  {
+    "name": "火绒应用商店",
+    "url": "https://www.huorong.cn/product/appstore.html",
+    "description": "无广告Windows软件商店，支持Windows7以上系统",
+    "category": "应用市场",
+    "tags": [
+      "应用市场",
+      "火绒",
+      "无广告"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "微软应用商店",
+    "url": "https://www.microsoft.com/zh-cn/store",
+    "description": "Windows10/11官方应用分发平台",
+    "category": "应用市场",
+    "tags": [
+      "应用市场",
+      "微软",
+      "官方"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "华为应用市场",
+    "url": "https://appgallery.huawei.com/",
+    "description": "华为官方应用分发平台",
+    "category": "应用市场",
+    "tags": [
+      "应用市场",
+      "华为",
+      "安全"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "微PE工具箱",
+    "url": "https://www.wepe.com.cn/",
+    "description": "轻量PE系统工具",
+    "category": "系统维护",
+    "tags": [
+      "系统工具",
+      "PE",
+      "轻量"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "FirPE",
+    "url": "https://firpe.cn/",
+    "description": "可联网的双内核启动盘工具，界面美观",
+    "category": "系统维护",
+    "tags": [
+      "系统工具",
+      "PE",
+      "双内核"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "FirPE",
+    "url": "https://firpe.cn/",
+    "description": "可联网的双内核启动盘工具，界面美观",
+    "category": "系统维护",
+    "tags": [
+      "系统工具",
+      "PE",
+      "双内核"
+    ],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "U盘魔术师",
+    "url": "https://www.upansm.com/",
+    "description": "功能丰富的U盘启动盘制作工具",
+    "category": "系统维护",
+    "tags": [
+      "系统工具",
+      "U盘",
+      "启动盘"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "DriverPack",
+    "url": "https://driverpack.io/zh",
+    "description": "驱动自助下载平台",
+    "category": "驱动工具",
+    "tags": [
+      "驱动",
+      "自助下载",
+      "硬件"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "驱动总裁",
+    "url": "https://www.sysceo.com/",
+    "description": "硬件驱动管理工具",
+    "category": "驱动工具",
+    "tags": [
+      "驱动",
+      "管理",
+      "硬件"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "360驱动大师",
+    "url": "https://driver.360.cn/",
+    "description": "360官方驱动工具",
+    "category": "驱动工具",
+    "tags": [
+      "驱动",
+      "360",
+      "官方"
+    ],
+    "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "VLC播放器",
+    "url": "https://www.videolan.org/vlc/",
+    "description": "全格式免费开源播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "全格式",
+      "开源"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "PotPlayer",
+    "url": "https://potplayer.daum.net/",
+    "description": "功能强大的影音播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "全能",
+      "自定义"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "KMPlayer",
+    "url": "https://www.kmplayer.com/",
+    "description": "支持多格式的老牌播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "老牌",
+      "多格式"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "QQ影音",
+    "url": "https://player.qq.com/",
+    "description": "腾讯出品的影音播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "腾讯",
+      "简洁"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "暴风影音",
+    "url": "http://www.baofeng.com/",
+    "description": "支持海量格式的播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "海量格式",
+      "老牌"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "MPC-HC",
+    "url": "https://mpc-hc.org/",
+    "description": "轻量开源的影音播放器",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "轻量",
+      "开源"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "GOM Player",
+    "url": "https://www.gomlab.com/gomplayer/cn/",
+    "description": "支持破损文件播放",
+    "category": "本地播放器",
+    "tags": [
+      "播放器",
+      "修复播放",
+      "全能"
+    ],
+    "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/",
+    "description": "全球最大游戏分发平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "全球",
+      "多人"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "GOG",
+    "url": "https://www.gog.com/",
+    "description": "无DRM的经典游戏平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "无DRM",
+      "经典"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "Epic Games Store",
+    "url": "https://www.epicgames.com/store/zh-CN/",
+    "description": "Epic旗下游戏商店",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "Epic",
+      "免费游戏"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "Origin",
+    "url": "https://www.origin.com/hkg/zh-hant/",
+    "description": "EA官方游戏平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "EA",
+      "正版"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "育碧Connect",
+    "url": "https://ubisoftconnect.com/zh-CN/",
+    "description": "育碧游戏管理平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "育碧",
+      "云存档"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "腾讯WeGame",
+    "url": "https://www.wegame.com.cn/",
+    "description": "腾讯游戏综合平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "腾讯",
+      "国产"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "暴雪战网",
+    "url": "https://www.blizzard.com/zh-cn/",
+    "description": "暴雪游戏官方平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "暴雪",
+      "竞技"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "Xbox应用",
+    "url": "https://www.xbox.com/zh-CN/apps/xbox-app-for-windows-10",
+    "description": "Xbox游戏管理平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "Xbox",
+      "跨平台"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "任天堂eShop",
+    "url": "https://www.nintendo.com/eshop/",
+    "description": "任天堂官方游戏商店",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "任天堂",
+      "主机"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "itch.io",
+    "url": "https://itch.io/",
+    "description": "独立游戏分发平台",
+    "category": "游戏平台",
+    "tags": [
+      "游戏平台",
+      "独立游戏",
+      "小众"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
   }
 ]
