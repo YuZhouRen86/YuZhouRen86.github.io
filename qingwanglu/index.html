@@ -193,37 +193,36 @@
 
     <script src="../宇宙人官网文件/修正样式.js"></script>
     <!-- JavaScript -->
-    < script >
+    <script>
         // 全局变量
         let bookmarks = [];
         let categories = new Set();
         let currentCategory = 'all';
         let currentSearchTerm = '';
         let currentPage = 1;
-        const itemsPerPage = 20; // 每页显示20个网址
+        var itemsPerPage = 20; // 每页显示20个网址
         let totalPages = 1;
-        const maxPageButtons = 10; // 最多显示10个页码按钮
+        var maxPageButtons = 10; // 最多显示10个页码按钮
 
         // DOM元素
-        const searchInput = document.getElementById('search-input');
-        const bookmarksContainer = document.getElementById('bookmarks-container');
-        const emptyState = document.getElementById('empty-state');
-        const loadingState = document.getElementById('loading-state');
-        const noResults = document.getElementById('no-results');
-        const totalCountEl = document.getElementById('total-count');
-        const categoryCountEl = document.getElementById('category-count');
-        const lastUpdatedEl = document.getElementById('last-updated');
-        const searchResultsInfo = document.getElementById('search-results-info');
-        const searchTermEl = document.getElementById('search-term');
-        const searchResultsCountEl = document.getElementById('search-results-count');
-        const navbar = document.getElementById('navbar');
-        const paginationContainer = document.getElementById('pagination-container');
-        const pageNumbersContainer = document.getElementById('page-numbers');
-        const prevPageBtn = document.getElementById('prev-page');
-        const nextPageBtn = document.getElementById('next-page');
-        const jumpToPageInput = document.getElementById('jump-to-page');
-        const jumpBtn = document.getElementById('jump-btn');
-        const totalPagesText = document.getElementById('total-pages-text');
+        var searchInput = document.getElementById('search-input');
+        var bookmarksContainer = document.getElementById('bookmarks-container');
+        var emptyState = document.getElementById('empty-state');
+        var loadingState = document.getElementById('loading-state');
+        var noResults = document.getElementById('no-results');
+        var totalCountEl = document.getElementById('total-count');
+        var categoryCountEl = document.getElementById('category-count');
+        var lastUpdatedEl = document.getElementById('last-updated');
+        var searchResultsInfo = document.getElementById('search-results-info');
+        var searchTermEl = document.getElementById('search-term');
+        var searchResultsCountEl = document.getElementById('search-results-count');
+        var paginationContainer = document.getElementById('pagination-container');
+        var pageNumbersContainer = document.getElementById('page-numbers');
+        var prevPageBtn = document.getElementById('prev-page');
+        var nextPageBtn = document.getElementById('next-page');
+        var jumpToPageInput = document.getElementById('jump-to-page');
+        var jumpBtn = document.getElementById('jump-btn');
+        var totalPagesText = document.getElementById('total-pages-text');
 
         // 事件监听
         document.addEventListener('DOMContentLoaded', init);
@@ -238,10 +237,10 @@
         // 初始化
         function init() {
             // 尝试从localStorage加载数据，如果没有则加载数据.json
-            const savedData = localStorage.getItem('bookmarksData');
+            var savedData = localStorage.getItem('bookmarksData');
             if (savedData) {
                 try {
-                    const parsedData = JSON.parse(savedData);
+                    var parsedData = JSON.parse(savedData);
                     if (Array.isArray(parsedData) && parsedData.length > 0) {
                         bookmarks = parsedData;
                         processBookmarks();
@@ -320,15 +319,15 @@
             categoryCountEl.textContent = categories.size;
 
             // 检查是否有最后更新时间
-            const hasDates = bookmarks.some(b => b.updated);
+            var hasDates = bookmarks.some(b => b.updated);
             if (hasDates) {
                 // 按更新时间排序并取最新的
-                const sortedByDate = [...bookmarks]
+                var sortedByDate = [...bookmarks]
                     .filter(b => b.updated)
                     .sort((a, b) => new Date(b.updated) - new Date(a.updated));
 
                 if (sortedByDate.length > 0) {
-                    const lastUpdated = new Date(sortedByDate[0].updated);
+                    var lastUpdated = new Date(sortedByDate[0].updated);
                     lastUpdatedEl.textContent = formatDate(lastUpdated);
                 }
             } else {
@@ -338,15 +337,15 @@
 
         // 渲染分类按钮
         function renderCategoryButtons() {
-            const categoryContainer = document.querySelector('.category-btn').parentElement;
+            var categoryContainer = document.querySelector('.category-btn').parentElement;
 
             // 清除现有分类按钮（保留"全部"按钮）
-            const existingCategoryBtns = document.querySelectorAll('.category-btn:not([data-category="all"])');
+            var existingCategoryBtns = document.querySelectorAll('.category-btn:not([data-category="all"])');
             existingCategoryBtns.forEach(btn => btn.remove());
 
             // 添加新的分类按钮
             Array.from(categories).forEach(category => {
-                const btn = document.createElement('button');
+                var btn = document.createElement('button');
                 btn.className = 'category-btn px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm font-medium hover:bg-gray-200 transition-colors';
                 btn.dataset.category = category;
                 btn.textContent = category;
@@ -387,13 +386,13 @@
 
             // 按搜索词过滤
             if (currentSearchTerm) {
-                const searchTerm = currentSearchTerm.toLowerCase();
+                var searchTerm = currentSearchTerm.toLowerCase();
                 filtered = filtered.filter(bookmark => {
                     // 检查名称、URL、分类和标签
-                    const matchesName = bookmark.name.toLowerCase().includes(searchTerm);
-                    const matchesUrl = bookmark.url.toLowerCase().includes(searchTerm);
-                    const matchesCategory = bookmark.category && bookmark.category.toLowerCase().includes(searchTerm);
-                    const matchesTags = bookmark.tags && bookmark.tags.some(tag =>
+                    var matchesName = bookmark.name.toLowerCase().includes(searchTerm);
+                    var matchesUrl = bookmark.url.toLowerCase().includes(searchTerm);
+                    var matchesCategory = bookmark.category && bookmark.category.toLowerCase().includes(searchTerm);
+                    var matchesTags = bookmark.tags && bookmark.tags.some(tag =>
                         tag.toLowerCase().includes(searchTerm)
                     );
 
@@ -407,8 +406,8 @@
         // 计算分页
         function getPaginatedResults(filteredBookmarks) {
             totalPages = Math.ceil(filteredBookmarks.length / itemsPerPage);
-            const startIndex = (currentPage - 1) * itemsPerPage;
-            const endIndex = startIndex + itemsPerPage;
+            var startIndex = (currentPage - 1) * itemsPerPage;
+            var endIndex = startIndex + itemsPerPage;
             return filteredBookmarks.slice(startIndex, endIndex);
         }
 
@@ -449,7 +448,7 @@
                 }
             } else {
                 // 总页数超过maxPageButtons，需要显示省略号
-                const visiblePages = maxPageButtons - 2; // 减去首尾页和省略号
+                var visiblePages = maxPageButtons - 2; // 减去首尾页和省略号
                 let startPage, endPage;
 
                 // 当前页靠近首页
@@ -480,13 +479,13 @@
             pagesToShow.forEach(page => {
                 if (page === '...') {
                     // 添加省略号
-                    const ellipsis = document.createElement('span');
+                    var ellipsis = document.createElement('span');
                     ellipsis.className = 'pagination-btn pointer-events-none text-gray-400 border-none';
                     ellipsis.textContent = '...';
                     pageNumbersContainer.appendChild(ellipsis);
                 } else {
                     // 添加页码按钮
-                    const pageBtn = document.createElement('button');
+                    var pageBtn = document.createElement('button');
                     pageBtn.className = `pagination-btn ${page === currentPage ? 'active' : ''}`;
                     pageBtn.textContent = page;
                     pageBtn.addEventListener('click', () => {
@@ -544,8 +543,8 @@
         function renderBookmarks() {
             hideAllStates();
 
-            const filteredBookmarks = filterBookmarks();
-            const paginatedBookmarks = getPaginatedResults(filteredBookmarks);
+            var filteredBookmarks = filterBookmarks();
+            var paginatedBookmarks = getPaginatedResults(filteredBookmarks);
 
             // 更新搜索结果信息
             if (currentSearchTerm) {
@@ -573,7 +572,7 @@
 
             // 渲染当前页的书签
             paginatedBookmarks.forEach(bookmark => {
-                const card = createBookmarkCard(bookmark);
+                var card = createBookmarkCard(bookmark);
                 bookmarksContainer.appendChild(card);
             });
 
@@ -585,13 +584,13 @@
 
         // 创建书签卡片
         function createBookmarkCard(bookmark) {
-            const card = document.createElement('div');
+            var card = document.createElement('div');
             card.className = 'bg-white rounded-xl shadow-sm overflow-hidden card-hover';
 
             // 提取域名作为卡片标题的一部分
             let domain = '';
             try {
-                const url = new URL(bookmark.url);
+                var url = new URL(bookmark.url);
                 domain = url.hostname.replace('www.', '');
             } catch (e) {
                 domain = bookmark.url;
@@ -684,7 +683,7 @@
         // 显示提示消息
         function showToast(message) {
             // 创建toast元素
-            const toast = document.createElement('div');
+            var toast = document.createElement('div');
             toast.className = 'fixed bottom-4 right-4 bg-dark text-white px-4 py-2 rounded-lg shadow-lg z-50 transform translate-y-10 opacity-0 transition-all duration-300';
             toast.textContent = message;
             document.body.appendChild(toast);
