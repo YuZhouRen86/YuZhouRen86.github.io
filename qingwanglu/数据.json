@@ -3377,7 +3377,7 @@
   },
   {
     "name": "WinRAR",
-    "url": "https://www.win-rar.com/",
+    "url": "https://www.win-rar.com/?&L=7",
     "description": "经典老牌压缩软件",
     "category": "压缩工具",
     "tags": [
@@ -3389,7 +3389,7 @@
   },
   {
     "name": "7-Zip",
-    "url": "https://www.7-zip.org/",
+    "url": "https://sparanoid.com/lab/7z/",
     "description": "开源免费压缩工具",
     "category": "压缩工具",
     "tags": [
@@ -3401,7 +3401,7 @@
   },
   {
     "name": "Listary",
-    "url": "https://www.listary.com/",
+    "url": "https://www.listary.net/",
     "description": "高效文件快速搜索软件",
     "category": "文件工具",
     "tags": [
@@ -3518,5 +3518,21 @@
       "Yandex"
     ],
     "updated": "2025-07-23T17:00:00Z"
+  },
+  {
+    "name": "EV录屏",
+    "url": "https://www.ieway.cn/evcapture.html",
+    "description": "免费国产屏幕录制软件",
+    "category": "录屏工具",
+    "tags": ["屏幕录制", "高清", "无水印"],
+    "updated": "2025-07-25T20:00:00Z"
+  },
+  {
+    "name": "Leawo 免费屏幕录像机",
+    "url": "https://www.leawo.org/zh-CN/free-screen-recorder/",
+    "description": "免费屏幕录制软件",
+    "category": "录屏工具",
+    "tags": ["屏幕录制", "免费", "视频"],
+    "updated": "2025-07-23T19:00:00Z"
   }
 ]
