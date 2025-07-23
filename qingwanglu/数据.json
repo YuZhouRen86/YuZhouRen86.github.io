@@ -72,7 +72,7 @@
       "updated": "2025-07-23T14:00:00Z"
   },
   {
-      "name": "百科",
+      "name": "百度百科",
       "url": "https://baike.baidu.com/",
       "description": "百度百科，在线百科全书",
       "category": "知识资讯",
@@ -98,7 +98,7 @@
   {
       "name": "哔哩哔哩",
       "url": "https://www.bilibili.com/",
-      "description": "年轻人喜爱的视频平台",
+      "description": "B站，年轻人喜爱的视频平台",
       "category": "视频娱乐",
       "tags": ["视频", "弹幕", "二次元"],
       "updated": "2025-07-23T14:00:00Z"
@@ -349,14 +349,6 @@
       "description": "中文IT技术社区",
       "category": "技术社区",
       "tags": ["技术", "编程", "社区"],
-      "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-      "name": "GitHub",
-      "url": "https://github.com/",
-      "description": "代码托管平台",
-      "category": "开发工具",
-      "tags": ["代码", "开发", "开源"],
       "updated": "2025-07-23T14:00:00Z"
   },
   {
@@ -816,7 +808,7 @@
       "updated": "2025-07-23T14:00:00Z"
   },
   {
-      "name": "贴吧",
+      "name": "百度贴吧",
       "url": "https://tieba.baidu.com/",
       "description": "兴趣主题社区",
       "category": "社交社区",
@@ -1088,7 +1080,7 @@
       "updated": "2025-07-23T14:00:00Z"
   },
   {
-      "name": "百度云",
+      "name": "百度网盘",
       "url": "https://pan.baidu.com/",
       "description": "云存储和服务平台",
       "category": "云服务",
@@ -1149,14 +1141,6 @@
       "description": "在线翻译服务",
       "category": "工具服务",
       "tags": ["翻译", "工具", "有道"],
-      "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-      "name": "谷歌翻译",
-      "url": "https://translate.google.com/",
-      "description": "多语言翻译服务",
-      "category": "工具服务",
-      "tags": ["翻译", "工具", "谷歌"],
       "updated": "2025-07-23T14:00:00Z"
   },
   {
@@ -1459,11 +1443,11 @@
     "name": "GitHub",
     "url": "https://github.com",
     "description": "全球最大的代码托管平台",
-    "category": "开发工具",
+    "category": "技术社区",
     "tags": [
+      "编程",
       "代码",
-      "开源",
-      "版本控制"
+      "开源"
     ],
     "updated": "2025-07-23T10:30:00Z"
   },
@@ -1502,5 +1486,109 @@
       "框架"
     ],
     "updated": "2025-07-23T16:20:00Z"
+  },
+  {
+      "name": "Google Chrome",
+      "url": "https://www.google.cn/chrome/",
+      "description": "谷歌浏览器，跨平台网页浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "谷歌", "跨平台"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Mozilla Firefox",
+      "url": "https://www.mozilla.org/zh-CN/firefox/new/",
+      "description": "火狐浏览器，Mozilla开发的自由及开放源代码网页浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "开源", "Firefox"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Microsoft Edge",
+      "url": "https://www.microsoft.com/zh-cn/edge",
+      "description": "微软开发的基于Chromium的网页浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "微软", "Chromium"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Safari",
+      "url": "https://www.apple.com/safari/",
+      "description": "苹果公司开发的网页浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "苹果", "Safari"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Opera",
+      "url": "https://www.opera.com/zh-cn",
+      "description": "挪威Opera Software开发的网页浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "Opera", "跨平台"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Chromium",
+      "url": "https://www.chromium.org/Home/",
+      "description": "开源网页浏览器项目，为Google Chrome提供基础",
+      "category": "浏览器",
+      "tags": ["浏览器", "开源", "Chromium"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "Vivaldi",
+      "url": "https://vivaldi.com/zh-hans/",
+      "description": "由Opera前CEO开发的注重自定义功能的浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "自定义", "Vivaldi"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "360安全浏览器",
+      "url": "https://browser.360.cn/ee/",
+      "description": "360公司开发的基于Chromium的安全浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "安全", "360"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "360极速浏览器",
+    "url": "https://browser.360.cn/ee/",
+    "description": "360公司开发的基于全新Chromium高速内核引擎，适配多平台的浏览器",
+    "category": "浏览器",
+    "tags": ["浏览器", "360", "高速"],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+      "name": "搜狗高速浏览器",
+      "url": "https://ie.sogou.com/",
+      "description": "搜狗公司开发的双核高速浏览器",
+      "category": "浏览器",
+      "tags": ["浏览器", "双核", "搜狗"],
+      "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "QQ浏览器",
+    "url": "https://browser.qq.com/",
+    "description": "腾讯公司开发的多功能浏览器",
+    "category": "浏览器",
+    "tags": ["浏览器", "腾讯", "多功能"],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "联想浏览器",
+    "url": "https://browser.lenovo.com/",
+    "description": "联想公司推出的集高效浏览、安全防护等功能于一体的浏览器",
+    "category": "浏览器",
+    "tags": ["浏览器", "联想", "高效"],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "华为浏览器",
+    "url": "https://consumer.huawei.com/cn/software/browser/",
+    "description": "华为公司开发的适配华为全终端设备的智能浏览器",
+    "category": "浏览器",
+    "tags": ["浏览器", "华为", "智能"],
+    "updated": "2025-07-23T14:00:00Z"
   }
 ]
