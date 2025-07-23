@@ -147,13 +147,13 @@
     "name": "求闻百科",
     "url": "https://www.qiuwenbaike.cn/",
     "description": "中文网络百科全书",
-    "category": "参考工具",
+    "category": "知识资讯",
     "tags": [
       "百科",
       "知识",
       "中文"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-23T18:00:00Z"
   },
   {
     "name": "必应",
@@ -276,40 +276,16 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "闲鱼",
-    "url": "https://www.goofish.com/",
-    "description": "知名二手交易平台",
-    "category": "电子商务",
+    "name": "Outlook",
+    "url": "https://outlook.live.com/owa/",
+    "description": "微软邮箱平台",
+    "category": "邮箱平台",
     "tags": [
-      "二手交易",
-      "闲置物品",
-      "C2C"
+      "邮件",
+      "办公",
+      "微软"
     ],
     "updated": "2025-07-23T20:00:00Z"
-  },
-  {
-    "name": "转转",
-    "url": "https://www.zhuanzhuan.com/",
-    "description": "国内领先的二手电商平台",
-    "category": "电子商务",
-    "tags": [
-      "二手交易",
-      "手机3C",
-      "官方验机"
-    ],
-    "updated": "2025-07-23T20:00:00Z"
-  },
-  {
-    "name": "金数据",
-    "url": "https://jinshuju.net/",
-    "description": "在线表单工具",
-    "category": "办公工具",
-    "tags": [
-      "表单",
-      "数据收集",
-      "办公"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
   },
   {
     "name": "今日头条",
@@ -1212,30 +1188,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "当当网",
-    "url": "http://www.dangdang.com/",
-    "description": "在线图书销售平台",
-    "category": "电子商务",
-    "tags": [
-      "图书",
-      "电商",
-      "购物"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "亚马逊中国",
-    "url": "https://www.amazon.cn/",
-    "description": "综合电商平台",
-    "category": "电子商务",
-    "tags": [
-      "电商",
-      "购物",
-      "零售"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "拼多多",
     "url": "https://www.pinduoduo.com/",
     "description": "社交电商平台",
@@ -1263,6 +1215,54 @@
     "name": "苏宁易购",
     "url": "https://www.suning.com/",
     "description": "综合零售电商平台",
+    "category": "电子商务",
+    "tags": [
+      "电商",
+      "购物",
+      "零售"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "闲鱼",
+    "url": "https://www.goofish.com/",
+    "description": "知名二手交易平台",
+    "category": "电子商务",
+    "tags": [
+      "二手交易",
+      "闲置物品",
+      "C2C"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
+    "name": "转转",
+    "url": "https://www.zhuanzhuan.com/",
+    "description": "国内领先的二手电商平台",
+    "category": "电子商务",
+    "tags": [
+      "二手交易",
+      "手机3C",
+      "官方验机"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
+    "name": "当当网",
+    "url": "http://www.dangdang.com/",
+    "description": "在线图书销售平台",
+    "category": "电子商务",
+    "tags": [
+      "图书",
+      "电商",
+      "购物"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "亚马逊中国",
+    "url": "https://www.amazon.cn/",
+    "description": "综合电商平台",
     "category": "电子商务",
     "tags": [
       "电商",
@@ -1668,6 +1668,18 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "Microsoft Teams",
+    "url": "https://teams.microsoft.com/v2/",
+    "description": "微软团队协作平台",
+    "category": "办公工具",
+    "tags": [
+      "办公",
+      "协作",
+      "微软"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
+  },
+  {
     "name": "钉钉",
     "url": "https://www.dingtalk.com/",
     "description": "企业级智能移动办公平台",
@@ -1771,6 +1783,18 @@
     "tags": [
       "笔记",
       "知识",
+      "办公"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "金数据",
+    "url": "https://jinshuju.net/",
+    "description": "在线表单工具",
+    "category": "办公工具",
+    "tags": [
+      "表单",
+      "数据收集",
       "办公"
     ],
     "updated": "2025-07-23T14:00:00Z"
@@ -2784,18 +2808,6 @@
     "updated": "2025-07-23T18:00:00Z"
   },
   {
-    "name": "FirPE",
-    "url": "https://firpe.cn/",
-    "description": "可联网的双内核启动盘工具，界面美观",
-    "category": "系统维护",
-    "tags": [
-      "系统工具",
-      "PE",
-      "双内核"
-    ],
-    "updated": "2025-07-23T18:00:00Z"
-  },
-  {
     "name": "U盘魔术师",
     "url": "https://www.upansm.com/",
     "description": "功能丰富的U盘启动盘制作工具",
@@ -2821,7 +2833,7 @@
   },
   {
     "name": "驱动总裁",
-    "url": "https://www.sysceo.com/",
+    "url": "https://www.sysceo.com/dc",
     "description": "硬件驱动管理工具",
     "category": "驱动工具",
     "tags": [
@@ -2853,7 +2865,7 @@
       "优化",
       "安全"
     ],
-    "updated": "2025-07-24T16:00:00Z"
+    "updated": "2025-07-23T16:00:00Z"
   },
   {
     "name": "Advanced SystemCare Free",
@@ -2865,7 +2877,7 @@
       "清理",
       "免费"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-23T18:00:00Z"
   },
   {
     "name": "360驱动大师",
@@ -3081,7 +3093,7 @@
       "专业",
       "商用"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-23T18:00:00Z"
   },
   {
     "name": "VirtualBox",
@@ -3093,7 +3105,7 @@
       "开源",
       "免费"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-23T18:00:00Z"
   },
   {
     "name": "QEMU",
@@ -3105,6 +3117,210 @@
       "跨平台",
       "模拟器"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "WPS",
+    "url": "https://www.wps.com/",
+    "description": "免费全能办公软件",
+    "category": "办公软件",
+    "tags": [
+      "办公",
+      "文档编辑",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "网易免费邮箱",
+    "url": "https://mail.163.com/",
+    "description": "网易旗下免费邮箱服务",
+    "category": "邮箱平台",
+    "tags": [
+      "邮箱",
+      "免费",
+      "网易"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "126网易免费邮",
+    "url": "https://www.126.com/",
+    "description": "网易旗下免费邮箱服务",
+    "category": "邮件工具",
+    "tags": [
+      "邮箱",
+      "免费",
+      "网易"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "GIMP",
+    "url": "https://www.gimp.org/",
+    "description": "开源图像编辑工具",
+    "category": "图形图像工具",
+    "tags": [
+      "图像处理",
+      "开源",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Krita",
+    "url": "https://krita.org/zh-cn/",
+    "description": "专业开源绘画软件",
+    "category": "图形图像工具",
+    "tags": [
+      "绘画",
+      "开源",
+      "专业"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "PixPin",
+    "url": "https://pixpinapp.com/",
+    "description": "强大的国产免费截图工具",
+    "category": "截图工具",
+    "tags": [
+      "截图",
+      "贴图",
+      "OCR识别"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Snippaste",
+    "url": "https://zh.snipaste.com/index.html",
+    "description": "高效截图贴图工具",
+    "category": "截图工具",
+    "tags": [
+      "截图",
+      "贴图",
+      "高效"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Blender",
+    "url": "https://www.blender.org/",
+    "description": "开源3D创作套件",
+    "category": "设计工具",
+    "tags": [
+      "3D建模",
+      "开源",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "希沃白板",
+    "url": "https://easinote.seewo.com/",
+    "description": "教育数字化工具及服务平台",
+    "category": "教育工具",
+    "tags": [
+      "教育",
+      "教学",
+      "互动课件"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "希沃轻白板",
+    "url": "https://e.seewo.com/product/EasiNote3c",
+    "description": "精简版网络教学辅助工具",
+    "category": "教育工具",
+    "tags": [
+      "教育",
+      "教学辅助",
+      "白板书写"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "GeoGebra",
+    "url": "https://beta.geogebra.org/",
+    "description": "跨平台动态数学软件",
+    "category": "教育工具",
+    "tags": [
+      "数学",
+      "教育",
+      "动态几何"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.com/zh-cn",
+    "description": "笔记与任务管理协作平台",
+    "category": "办公工具",
+    "tags": [
+      "笔记",
+      "任务管理",
+      "团队协作"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "Obsidian",
+    "url": "https://obsidian.md/",
+    "description": "免费知识管理笔记应用",
+    "category": "办公工具",
+    "tags": [
+      "知识管理",
+      "Markdown",
+      "离线使用"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "搜狗输入法",
+    "url": "https://pinyin.sogou.com/",
+    "description": "基于搜索引擎技术的输入法",
+    "category": "输入法引擎",
+    "tags": [
+      "拼音输入",
+      "语音输入",
+      "智能纠错"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "华宇拼音输入法",
+    "url": "https://pinyin.thunisoft.com/index.html",
+    "description": "Windows平台无广告的自主研发输入法",
+    "category": "输入法引擎",
+    "tags": [
+      "全拼输入",
+      "五笔输入",
+      "生僻字输入"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "讯飞输入法",
+    "url": "https://srf.xunfei.cn/#/",
+    "description": "语音输入高效的输入法",
+    "category": "输入法引擎",
+    "tags": [
+      "语音输入",
+      "方言识别",
+      "OCR扫描"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
+  },
+  {
+    "name": "微信输入法",
+    "url": "https://z.weixin.qq.com/",
+    "description": "简洁好用的打字工具",
+    "category": "输入法引擎",
+    "tags": [
+      "语音转文字",
+      "手写找字",
+      "智能拼写"
+    ],
+    "updated": "2025-07-23T23:00:00Z"
   }
 ]
