@@ -243,7 +243,7 @@
     "name": "豆瓣",
     "url": "https://www.douban.com/",
     "description": "社区网站，包含书评、影评等",
-    "category": "社区论坛",
+    "category": "社交社区",
     "tags": [
       "社区",
       "书评",
@@ -1359,7 +1359,7 @@
     "name": "百度贴吧",
     "url": "https://tieba.baidu.com/",
     "description": "兴趣主题社区",
-    "category": "社交论坛",
+    "category": "社交社区",
     "tags": [
       "社区",
       "兴趣",
@@ -1848,9 +1848,49 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "IDM",
+    "name": "Free Download Manager",
+    "url": "https://www.freedownloadmanager.org/zh/",
+    "description": "FDM，免费多功能下载管理工具",
+    "category": "下载工具",
+    "tags": [
+      "多线程下载",
+      "断点续传",
+      "开源"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
+  },
+  {
+    "name": "Neat Download Manager",
+    "url": "https://www.neatdownloadmanager.com/",
+    "description": "NDM，轻量级多平台下载管理器",
+    "category": "下载工具",
+    "tags": [
+      "多平台支持",
+      "智能管理",
+      "高速下载"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
+  },
+  {
+    "name": "BitComet（比特彗星）",
+    "url": "https://www.bitcomet.com/cn",
+    "description": "P2P文件共享下载工具",
+    "category": "下载工具",
+    "tags": ["P2P", "下载", "共享"],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "eMule",
+    "url": "https://www.emule-project.net/",
+    "description": "“电驴”，开源P2P文件分享软件",
+    "category": "下载工具",
+    "tags": ["P2P", "开源", "分享"],
+    "updated": "2025-07-23T18:00:00Z"
+  },
+  {
+    "name": "Internet Download Manager",
     "url": "https://www.internetdownloadmanager.com/",
-    "description": "下载管理工具",
+    "description": "IDM，互联网下载管理工具",
     "category": "下载工具",
     "tags": [
       "下载",
@@ -2628,6 +2668,18 @@
     "updated": "2025-07-23T16:06:00Z"
   },
   {
+    "name": "Rust",
+    "url": "https://www.rust-lang.org/zh-CN/",
+    "description": "系统级安全高性能编程语言",
+    "category": "编程语言",
+    "tags": [
+      "系统编程",
+      "内存安全",
+      "高性能"
+    ],
+    "updated": "2025-07-23T16:00:00Z"
+  },
+  {
     "name": "C# 指南",
     "url": "https://learn.microsoft.com/zh-cn/dotnet/csharp/",
     "description": "微软开发的现代编程语言，用于Windows应用、游戏和企业级开发",
@@ -3134,7 +3186,7 @@
   {
     "name": "GIMP",
     "url": "https://www.gimp.org/",
-    "description": "开源图像编辑工具",
+    "description": "开源图像编辑软件",
     "category": "图形图像工具",
     "tags": [
       "图像处理",
@@ -3158,7 +3210,7 @@
   {
     "name": "PixPin",
     "url": "https://pixpinapp.com/",
-    "description": "强大的国产免费截图工具",
+    "description": "强大的国产免费截图软件",
     "category": "截图工具",
     "tags": [
       "截图",
@@ -3170,7 +3222,7 @@
   {
     "name": "Snippaste",
     "url": "https://zh.snipaste.com/index.html",
-    "description": "高效截图贴图工具",
+    "description": "高效截图贴图软件",
     "category": "截图工具",
     "tags": [
       "截图",
@@ -3350,7 +3402,7 @@
   {
     "name": "Listary",
     "url": "https://www.listary.com/",
-    "description": "高效文件快速搜索工具",
+    "description": "高效文件快速搜索软件",
     "category": "文件工具",
     "tags": [
       "文件搜索",
@@ -3362,7 +3414,7 @@
   {
     "name": "Everything",
     "url": "https://www.voidtools.com/zh-cn/",
-    "description": "闪电般文件工具",
+    "description": "闪电般文件搜索软件",
     "category": "文件工具",
     "tags": [
       "文件搜索",
@@ -3374,7 +3426,7 @@
   {
     "name": "uTools",
     "url": "https://u.tools/",
-    "description": "生产力工具聚合平台",
+    "description": "生产力工具聚合软件",
     "category": "文件工具",
     "tags": [
       "效率",
@@ -3386,7 +3438,7 @@
   {
     "name": "AnyTXT Searcher",
     "url": "https://anytxt.net/",
-    "description": "全文本内容搜索工具",
+    "description": "全文本内容搜索软件",
     "category": "文件工具",
     "tags": [
       "文本搜索",
@@ -3398,7 +3450,7 @@
   {
     "name": "Wox",
     "url": "https://wox.one/",
-    "description": "开源快捷启动搜索工具",
+    "description": "开源快捷启动搜索软件",
     "category": "文件工具",
     "tags": [
       "搜索",
@@ -3410,7 +3462,7 @@
   {
     "name": "WinMerge",
     "url": "https://winmerge.org/?lang=zh_cn",
-    "description": "Windows文件比较工具",
+    "description": "Windows文件比较软件",
     "category": "文件工具",
     "tags": [
       "文件比较",
@@ -3422,7 +3474,7 @@
   {
     "name": "Meld",
     "url": "https://meldmerge.org/",
-    "description": "跨平台文件对比工具",
+    "description": "跨平台文件对比软件",
     "category": "文件工具",
     "tags": [
       "文件对比",
@@ -3434,7 +3486,7 @@
   {
     "name": "Diffuse",
     "url": "https://diffuse.sourceforge.net/",
-    "description": "轻量文本差异比较工具",
+    "description": "轻量文本差异比较软件",
     "category": "文件工具",
     "tags": [
       "文本比较",
@@ -3442,5 +3494,29 @@
       "多语言"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "欧路词典",
+    "url": "https://www.eudic.net/",
+    "description": "英语翻译词典软件",
+    "category": "语言服务",
+    "tags": [
+      "英文",
+      "词典",
+      "翻译"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
+  },
+  {
+    "name": "Yandex翻译",
+    "url": "https://translate.yandex.com/",
+    "description": "多语言在线翻译工具",
+    "category": "语言服务",
+    "tags": [
+      "翻译",
+      "多语言",
+      "Yandex"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
   }
 ]
