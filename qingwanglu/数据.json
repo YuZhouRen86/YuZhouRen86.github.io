@@ -120,6 +120,54 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "必应",
+    "url": "https://cn.bing.com/",
+    "description": "微软旗下搜索引擎，支持中英等多种语言",
+    "category": "搜索引擎",
+    "tags": [
+      "搜索引擎",
+      "必应",
+      "微软"
+    ],
+    "updated": "2025-07-23T16:30:00Z"
+  },
+  {
+    "name": "Yandex",
+    "url": "https://yandex.com/",
+    "description": "俄罗斯主流搜索引擎，支持英俄等多种语言",
+    "category": "搜索引擎",
+    "tags": [
+      "搜索引擎",
+      "Yandex",
+      "俄罗斯"
+    ],
+    "updated": "2025-07-23T16:30:00Z"
+  },
+  {
+    "name": "搜狗搜索引擎",
+    "url": "https://www.sogou.com/",
+    "description": "搜狗旗下综合搜索引擎",
+    "category": "搜索引擎",
+    "tags": [
+      "搜索引擎",
+      "搜狗",
+      "综合"
+    ],
+    "updated": "2025-07-23T16:30:00Z"
+  },
+  {
+    "name": "360搜索",
+    "url": "https://www.so.com/",
+    "description": "360旗下安全搜索引擎",
+    "category": "搜索引擎",
+    "tags": [
+      "搜索引擎",
+      "360",
+      "安全"
+    ],
+    "updated": "2025-07-23T16:30:00Z"
+  },
+  {
     "name": "百姓网",
     "url": "https://www.baixing.com/",
     "description": "本地生活信息服务平台",
@@ -492,16 +540,28 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "慕课网",
-    "url": "https://www.imooc.com/",
-    "description": "IT技能学习平台",
+    "name": "国家中小学智慧教育平台",
+    "url": "https://www.zxx.edu.cn/",
+    "description": "中小学在线教育资源平台",
     "category": "在线教育",
     "tags": [
-      "学习",
-      "IT",
-      "教育"
+      "教育",
+      "中小学",
+      "官方"
     ],
-    "updated": "2025-07-23T14:00:00Z"
+    "updated": "2025-07-23T17:00:00Z"
+  },
+  {
+    "name": "智学网",
+    "url": "https://www.zhixue.com/",
+    "description": "中小学智能学习平台",
+    "category": "在线教育",
+    "tags": [
+      "教育",
+      "中小学",
+      "智能"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
   },
   {
     "name": "网易云课堂",
@@ -512,18 +572,6 @@
       "学习",
       "课程",
       "教育"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "CSDN",
-    "url": "https://www.csdn.net/",
-    "description": "中文IT技术社区",
-    "category": "技术社区",
-    "tags": [
-      "技术",
-      "编程",
-      "社区"
     ],
     "updated": "2025-07-23T14:00:00Z"
   },
@@ -1023,7 +1071,7 @@
     "name": "国家图书馆",
     "url": "http://www.nlc.cn/",
     "description": "国家图书馆官方网站",
-    "category": "文化教育",
+    "category": "文化平台",
     "tags": [
       "图书",
       "文化",
@@ -1035,7 +1083,7 @@
     "name": "豆瓣读书",
     "url": "https://book.douban.com/",
     "description": "图书评论和推荐平台",
-    "category": "文化教育",
+    "category": "文化平台",
     "tags": [
       "图书",
       "阅读",
@@ -1671,7 +1719,7 @@
     "name": "迅雷",
     "url": "https://www.xunlei.com/",
     "description": "下载工具和服务",
-    "category": "工具软件",
+    "category": "下载软件",
     "tags": [
       "下载",
       "工具",
@@ -1683,7 +1731,7 @@
     "name": "IDM",
     "url": "https://www.internetdownloadmanager.com/",
     "description": "下载管理工具",
-    "category": "工具软件",
+    "category": "下载软件",
     "tags": [
       "下载",
       "工具",
@@ -2172,16 +2220,16 @@
     "updated": "2025-07-23T10:30:00Z"
   },
   {
-    "name": "Stack Overflow",
-    "url": "https://stackoverflow.com",
-    "description": "程序员问答社区",
-    "category": "开发资源",
+    "name": "Gitee",
+    "url": "https://gitee.com/",
+    "description": "国内开源代码托管平台",
+    "category": "开发工具",
     "tags": [
-      "编程",
-      "问答",
-      "技术"
+      "代码托管",
+      "Gitee",
+      "开源"
     ],
-    "updated": "2025-07-23T14:45:00Z"
+    "updated": "2025-07-23T17:00:00Z"
   },
   {
     "name": "掘金",
@@ -2388,6 +2436,18 @@
     "updated": "2025-07-23T15:32:00Z"
   },
   {
+    "name": "Yandex浏览器",
+    "url": "https://browser.yandex.com/",
+    "description": "俄罗斯Yandex开发的浏览器",
+    "category": "浏览器",
+    "tags": [
+      "浏览器",
+      "Yandex",
+      "俄罗斯"
+    ],
+    "updated": "2025-07-23T17:00:00Z"
+  },
+  {
     "name": "Visual Studio",
     "url": "https://visualstudio.microsoft.com/",
     "description": "微软开发的集成开发环境（IDE），支持Windows、Web和移动应用开发",
@@ -2474,7 +2534,7 @@
   {
     "name": "Java",
     "url": "https://www.oracle.com/java/",
-    "description": "跨平台面向对象编程语言，广泛应用于企业级开发和Android应用",
+    "description": "跨平台面向对象编程语言，广泛用于企业级开发和Android应用",
     "category": "编程语言",
     "tags": [
       "编程语言",
@@ -2484,7 +2544,7 @@
     "updated": "2025-07-23T16:02:00Z"
   },
   {
-    "name": "标准 C++",
+    "name": "标准C++",
     "url": "https://isocpp.org/",
     "description": "基于C语言的扩展，支持面向对象和泛型编程，用于高性能应用开发",
     "category": "编程语言",
@@ -2522,7 +2582,7 @@
   {
     "name": "Ruby",
     "url": "https://www.ruby-lang.org/zh_cn/",
-    "description": "简洁优雅的动态编程语言，以开发效率著称，广泛用于Web开发（如Ruby on Rails）",
+    "description": "简洁优雅的动态编程语言，以开发效率著称，广泛用于Web开发",
     "category": "编程语言",
     "tags": [
       "编程语言",
