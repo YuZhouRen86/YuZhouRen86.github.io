@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "description": "全球最大的代码托管平台",
+    "category": "开发工具",
+    "tags": [
+      "代码",
+      "开源",
+      "版本控制"
+    ],
+    "updated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "description": "程序员问答社区",
+    "category": "开发资源",
+    "tags": [
+      "编程",
+      "问答",
+      "技术"
+    ],
+    "updated": "2025-07-23T14:45:00Z"
+  },
+  {
+    "name": "掘金",
+    "url": "https://juejin.cn",
+    "description": "开发者社区",
+    "category": "开发资源",
+    "tags": [
+      "编程",
+      "前端",
+      "后端"
+    ],
+    "updated": "2025-07-23T09:15:00Z"
+  },
+  {
+    "name": "Tailwind CSS",
+    "url": "https://tailwindcss.com",
+    "description": "实用优先的CSS框架",
+    "category": "开发工具",
+    "tags": [
+      "CSS",
+      "前端",
+      "框架"
+    ],
+    "updated": "2025-07-23T16:20:00Z"
+  }
+]
