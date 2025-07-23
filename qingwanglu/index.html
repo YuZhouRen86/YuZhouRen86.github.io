@@ -47,7 +47,7 @@
                 @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200;
             }
             .pagination-btn {
-                @apply w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 hover:border-primary hover:text-primary transition-all;
+                @apply w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 hover:border-primary hover:text-red-500 transition-all;
             }
             .pagination-btn.active {
                 @apply bg-red-500 text-white border-primary;
@@ -86,7 +86,7 @@
                         <h3 class="text-3xl font-bold mt-1" id="total-count">0</h3>
                     </div>
                     <div class="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center">
-                        <i class="fa fa-link text-primary text-xl"></i>
+                        <i class="fa fa-link text-red-500 text-xl"></i>
                     </div>
                 </div>
             </div>
@@ -628,7 +628,7 @@
             card.innerHTML = `
                 <div class="p-5">
                     ${bookmark.category ? `
-                        <div class="text-xs text-primary font-medium mb-2">
+                        <div class="text-xs text-red-500 font-medium mb-2">
                             ${bookmark.category}
                         </div>
                     ` : ''}
@@ -636,7 +636,7 @@
                     <h3 class="font-semibold text-lg mb-1 truncate">${bookmark.name}</h3>
                     
                     <a href="${bookmark.url}" target="_blank" rel="noopener noreferrer" 
-                       class="text-gray-500 text-sm mb-3 block truncate hover:text-primary transition-colors">
+                       class="text-gray-500 text-sm mb-3 block truncate hover:text-red-500 transition-colors">
                         ${domain}
                     </a>
                     
@@ -650,7 +650,7 @@
                     
                     <div class="mt-4 flex justify-between items-center">
                         <a href="${bookmark.url}" target="_blank" rel="noopener noreferrer" 
-                           class="text-primary text-sm font-medium hover:underline flex items-center gap-1">
+                           class="text-red-500 text-sm font-medium hover:underline flex items-center gap-1">
                             <span>访问</span>
                             <i class="fa fa-external-link text-xs"></i>
                         </a>
