@@ -421,7 +421,7 @@
   },
   {
     "name": "微信",
-    "url": "https://mp.weixin.qq.com/",
+    "url": "https://weixin.qq.com/",
     "description": "跨平台通讯工具",
     "category": "通讯工具",
     "tags": [
@@ -574,6 +574,79 @@
       "交通"
     ],
     "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "WPS",
+    "url": "https://www.wps.com/",
+    "description": "免费全能办公软件",
+    "category": "办公工具",
+    "tags": [
+      "办公",
+      "文档编辑",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Microsoft 365",
+    "url": "https://www.office.com/",
+    "description": "微软Office办公套件",
+    "category": "办公工具",
+    "tags": [
+      "文档编辑",
+      "办公",
+      "在线"
+    ],
+    "updated": "2025-07-24T09:00:00Z"
+  },
+  {
+    "name": "钉钉",
+    "url": "https://www.dingtalk.com/",
+    "description": "企业级智能移动办公平台",
+    "category": "办公工具",
+    "tags": [
+      "办公",
+      "企业",
+      "通讯"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "企业微信",
+    "url": "https://work.weixin.qq.com/",
+    "description": "企业通讯与办公工具",
+    "category": "办公工具",
+    "tags": [
+      "办公",
+      "企业",
+      "微信"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "ONLYOFFICE",
+    "url": "https://www.onlyoffice.com/zh/",
+    "description": "免费开源的办公软件套件",
+    "category": "办公工具",
+    "tags": [
+      "多人协作",
+      "文档编辑",
+      "多平台兼容"
+    ],
+    "updated": "2025-07-24T09:52:00Z"
+  },
+  {
+    "name": "LibreOffice",
+    "url": "https://www.libreoffice.org/",
+    "description": "开源免费的跨平台办公软件",
+    "category": "办公工具",
+    "tags": [
+      "文档编辑",
+      "表格处理",
+      "演示文稿",
+      "开源协议"
+    ],
+    "updated": "2025-07-24T18:30:00Z"
   },
   {
     "name": "腾讯文档",
@@ -1668,30 +1741,6 @@
     "updated": "2025-07-23T20:00:00Z"
   },
   {
-    "name": "钉钉",
-    "url": "https://www.dingtalk.com/",
-    "description": "企业级智能移动办公平台",
-    "category": "办公工具",
-    "tags": [
-      "办公",
-      "企业",
-      "通讯"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "企业微信",
-    "url": "https://work.weixin.qq.com/",
-    "description": "企业通讯与办公工具",
-    "category": "办公工具",
-    "tags": [
-      "办公",
-      "企业",
-      "微信"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "飞书",
     "url": "https://www.feishu.cn/",
     "description": "一站式协作平台",
@@ -1700,18 +1749,6 @@
       "办公",
       "协作",
       "效率"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "石墨文档",
-    "url": "https://shimo.im/",
-    "description": "在线协作文档平台",
-    "category": "办公工具",
-    "tags": [
-      "文档",
-      "协作",
-      "办公"
     ],
     "updated": "2025-07-23T14:00:00Z"
   },
@@ -2773,7 +2810,7 @@
   },
   {
     "name": "火绒应用商店",
-    "url": "https://www.huorong.cn/product/appstore.html",
+    "url": "https://www.huorong.cn/appstore",
     "description": "无广告Windows软件商店，支持Windows7以上系统",
     "category": "应用市场",
     "tags": [
@@ -3142,18 +3179,6 @@
       "模拟器"
     ],
     "updated": "2025-07-23T18:00:00Z"
-  },
-  {
-    "name": "WPS",
-    "url": "https://www.wps.com/",
-    "description": "免费全能办公软件",
-    "category": "办公工具",
-    "tags": [
-      "办公",
-      "文档编辑",
-      "免费"
-    ],
-    "updated": "2025-07-23T21:00:00Z"
   },
   {
     "name": "网易免费邮箱",
