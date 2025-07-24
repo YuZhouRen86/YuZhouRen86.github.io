@@ -495,7 +495,7 @@
     "name": "百度知道",
     "url": "https://zhidao.baidu.com/",
     "description": "问答互动知识平台",
-    "category": "知识问答",
+    "category": "社交社区",
     "tags": [
       "问答",
       "知识",
@@ -964,7 +964,7 @@
     "name": "第一财经",
     "url": "https://www.yicai.com/",
     "description": "财经新闻资讯平台",
-    "category": "财经资讯",
+    "category": "财经服务",
     "tags": [
       "财经",
       "新闻",
@@ -976,7 +976,7 @@
     "name": "财新网",
     "url": "https://www.caixin.com/",
     "description": "财经新闻资讯平台",
-    "category": "财经资讯",
+    "category": "财经服务",
     "tags": [
       "财经",
       "新闻",
@@ -2905,6 +2905,18 @@
     "updated": "2025-07-23T19:00:00Z"
   },
   {
+    "name": "IT天空",
+    "url": "https://www.itsk.com/",
+    "description": "以操作系统技术为主的IT站点，万能驱动、优启通PE工具、Easy Sysprep封装工具作者",
+    "category": "系统工具",
+    "tags": [
+      "系统封装",
+      "驱动安装",
+      "系统部署"
+    ],
+    "updated": "2025-07-24T22:00:00Z"
+  },
+  {
     "name": "Windows官方下载",
     "url": "https://www.microsoft.com/zh-cn/software-download/",
     "description": "微软官方提供的Windows11/10系统下载中心",
@@ -2953,8 +2965,8 @@
     "updated": "2025-07-24T13:00:00Z"
   },
   {
-    "name": "DriverPack",
-    "url": "https://driverpack.io/zh",
+    "name": "DriverPack Solution",
+    "url": "https://driverpack.io/zh-cn/catalog",
     "description": "驱动自助下载平台",
     "category": "驱动工具",
     "tags": [
@@ -2967,7 +2979,7 @@
   {
     "name": "驱动总裁",
     "url": "https://www.sysceo.com/dc",
-    "description": "硬件驱动管理工具",
+    "description": "强大的硬件驱动管理工具",
     "category": "驱动工具",
     "tags": [
       "驱动",
@@ -3023,6 +3035,30 @@
       "官方"
     ],
     "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "驱动精灵",
+    "url": "https://www.drivergenius.com/",
+    "description": "驱动管理维护软件",
+    "category": "驱动工具",
+    "tags": [
+      "驱动更新",
+      "硬件检测",
+      "驱动备份还原"
+    ],
+    "updated": "2025-07-24T23:00:00Z"
+  },
+  {
+    "name": "驱动人生",
+    "url": "https://www.updrv.com/",
+    "description": "专注电脑硬件驱动管理软件",
+    "category": "驱动工具",
+    "tags": [
+      "驱动安装",
+      "驱动修复",
+      "万能网卡驱动"
+    ],
+    "updated": "2025-07-24T23:00:00Z"
   },
   {
     "name": "VLC播放器",
