@@ -1911,7 +1911,7 @@
   {
     "name": "Neat Download Manager",
     "url": "https://www.neatdownloadmanager.com/",
-    "description": "NDM，轻量级多平台下载管理器",
+    "description": "NDM，免费轻量级多平台下载管理器",
     "category": "下载工具",
     "tags": [
       "多平台支持",
@@ -2689,6 +2689,18 @@
     "updated": "2025-07-23T15:40:00Z"
   },
   {
+    "name": "TRAE",
+    "url": "https://www.trae.cn/",
+    "description": "集成AI的代码编辑器",
+    "category": "开发工具",
+    "tags": [
+      "代码编辑器",
+      "AI",
+      "智能"
+    ],
+    "updated": "2025-07-24T16:46:00Z"
+  },
+  {
     "name": "Dev-C++",
     "url": "https://www.bloodshed.net/devcpp.html",
     "description": "轻量级C/C++集成开发环境，基于MinGW和GCC编译器",
@@ -2908,13 +2920,13 @@
     "name": "IT天空",
     "url": "https://www.itsk.com/",
     "description": "以操作系统技术为主的IT站点，万能驱动、优启通PE工具、Easy Sysprep封装工具作者",
-    "category": "系统工具",
+    "category": "系统维护",
     "tags": [
       "系统封装",
       "驱动安装",
       "系统部署"
     ],
-    "updated": "2025-07-24T22:00:00Z"
+    "updated": "2025-07-24T16:00:00Z"
   },
   {
     "name": "Windows官方下载",
@@ -2944,7 +2956,7 @@
     "name": "Microsoft Update Catalog",
     "url": "https://www.catalog.update.microsoft.com/",
     "description": "微软更新资源库",
-    "category": "系统工具",
+    "category": "系统维护",
     "tags": [
       "系统更新",
       "补丁下载",
@@ -3046,7 +3058,7 @@
       "硬件检测",
       "驱动备份还原"
     ],
-    "updated": "2025-07-24T23:00:00Z"
+    "updated": "2025-07-24T16:00:00Z"
   },
   {
     "name": "驱动人生",
@@ -3058,7 +3070,7 @@
       "驱动修复",
       "万能网卡驱动"
     ],
-    "updated": "2025-07-24T23:00:00Z"
+    "updated": "2025-07-24T16:00:00Z"
   },
   {
     "name": "VLC播放器",
@@ -3433,7 +3445,7 @@
     "updated": "2025-07-23T21:00:00Z"
   },
   {
-    "name": "PhotoShop",
+    "name": "Adobe PhotoShop",
     "url": "https://www.adobe.com/cn/products/photoshop.html",
     "description": "Ps，Adobe公司开发的专业图像处理软件",
     "category": "图形图像工具",
@@ -3649,6 +3661,30 @@
     "updated": "2025-07-23T22:00:00Z"
   },
   {
+    "name": "PeaZip",
+    "url": "https://peazip.github.io/",
+    "description": "开源跨平台压缩工具",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "跨平台"
+    ],
+    "updated": "2025-07-24T16:00:00Z"
+  },
+  {
+    "name": "Nanazip",
+    "url": "https://apps.microsoft.com/detail/9n8g7tscl18r?hl=zh-CN&gl=CN",
+    "description": "基于7-Zip的Windows11/10现代化压缩工具",
+    "category": "压缩工具",
+    "tags": [
+      "压缩",
+      "解压",
+      "Windows"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
     "name": "Listary",
     "url": "https://www.listary.net/",
     "description": "高效文件快速搜索软件",
@@ -3707,6 +3743,18 @@
       "开源"
     ],
     "updated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "name": "追光Lite",
+    "url": "https://www.evercraft.co/lite",
+    "description": "国产文件历史追踪软件",
+    "category": "文件工具",
+    "tags": [
+      "历史管理",
+      "国产",
+      "文件版本"
+    ],
+    "updated": "2025-07-23T11:00:00Z"
   },
   {
     "name": "WinMerge",
