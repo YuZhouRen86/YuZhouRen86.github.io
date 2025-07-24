@@ -492,6 +492,18 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "百度知道",
+    "url": "https://zhidao.baidu.com/",
+    "description": "问答互动知识平台",
+    "category": "知识问答",
+    "tags": [
+      "问答",
+      "知识",
+      "互动"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
     "name": "优酷",
     "url": "https://www.youku.com/",
     "description": "视频分享平台",
@@ -1876,7 +1888,11 @@
     "url": "https://www.bitcomet.com/cn",
     "description": "P2P文件共享下载工具",
     "category": "下载工具",
-    "tags": ["P2P", "下载", "共享"],
+    "tags": [
+      "P2P",
+      "下载",
+      "共享"
+    ],
     "updated": "2025-07-23T18:00:00Z"
   },
   {
@@ -1884,7 +1900,11 @@
     "url": "https://www.emule-project.net/",
     "description": "“电驴”，开源P2P文件分享软件",
     "category": "下载工具",
-    "tags": ["P2P", "开源", "分享"],
+    "tags": [
+      "P2P",
+      "开源",
+      "分享"
+    ],
     "updated": "2025-07-23T18:00:00Z"
   },
   {
@@ -2813,7 +2833,7 @@
   },
   {
     "name": "U盘魔术师",
-    "url": "https://www.upansm.com/",
+    "url": "https://www.sysceo.com/usm",
     "description": "功能丰富的U盘启动盘制作工具",
     "category": "系统维护",
     "tags": [
@@ -3524,15 +3544,155 @@
     "url": "https://www.ieway.cn/evcapture.html",
     "description": "免费国产屏幕录制软件",
     "category": "录屏工具",
-    "tags": ["屏幕录制", "高清", "无水印"],
-    "updated": "2025-07-25T20:00:00Z"
+    "tags": [
+      "屏幕录制",
+      "高清",
+      "无水印"
+    ],
+    "updated": "2025-07-23T20:00:00Z"
   },
   {
     "name": "Leawo 免费屏幕录像机",
     "url": "https://www.leawo.org/zh-CN/free-screen-recorder/",
     "description": "免费屏幕录制软件",
     "category": "录屏工具",
-    "tags": ["屏幕录制", "免费", "视频"],
+    "tags": [
+      "屏幕录制",
+      "免费",
+      "视频"
+    ],
     "updated": "2025-07-23T19:00:00Z"
+  },
+  {
+    "name": "DeepSeek",
+    "url": "https://www.deepseek.com/",
+    "description": "深度求索AI对话助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "大模型"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "豆包",
+    "url": "https://www.doubao.com/",
+    "description": "字节跳动智能聊天助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "字节系"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "Kimi",
+    "url": "https://www.kimi.com/",
+    "description": "多功能AI智能助手",
+    "category": "生成式AI",
+    "tags": [
+      "长文本处理",
+      "多模态",
+      "智能搜索"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "腾讯元宝",
+    "url": "https://yuanbao.tencent.com/",
+    "description": "腾讯自研的AI助手",
+    "category": "AI聊天机器人",
+    "tags": [
+      "AI搜索",
+      "文档解析",
+      "腾讯混元大模型"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "秘塔AI",
+    "url": "https://metaso.cn/",
+    "description": "多功能AI智能助手",
+    "category": "生成式AI",
+    "tags": [
+      "写作辅助",
+      "文本校对",
+      "翻译"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "通义千问",
+    "url": "https://qianwen.aliyun.com/",
+    "description": "阿里巴巴智能对话助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "阿里系"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "智谱清言",
+    "url": "https://chatglm.cn/",
+    "description": "智谱AI对话助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "GLM模型"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "即梦AI",
+    "url": "https://dreaminaitech.com/",
+    "description": "图片和视频艺术创作智能助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "创新应用"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "百度AI",
+    "url": "https://ai.baidu.com/",
+    "description": "领先的人工智能技术平台",
+    "category": "人工智能平台",
+    "tags": [
+      "语音技术",
+      "图像技术",
+      "自然语言处理"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "讯飞星火",
+    "url": "https://xinghuo.xfyun.cn/",
+    "description": "科大讯飞智能对话助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "讯飞系"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com/",
+    "description": "百度智能对话助手",
+    "category": "生成式AI",
+    "tags": [
+      "AI对话",
+      "智能问答",
+      "百度系"
+    ],
+    "updated": "2025-07-23T22:00:00Z"
   }
 ]
