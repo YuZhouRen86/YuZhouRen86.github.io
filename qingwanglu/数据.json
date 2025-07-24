@@ -624,6 +624,30 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "腾讯文档",
+    "url": "https://docs.qq.com/",
+    "description": "在线文档协作平台",
+    "category": "办公工具",
+    "tags": [
+      "文档",
+      "协作",
+      "办公"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "Ashampoo PDF Free",
+    "url": "https://www.ashampoo.com/zh-cn/pdf-free?preview=true",
+    "description": "免费PDF阅读编辑工具",
+    "category": "办公工具",
+    "tags": [
+      "PDF",
+      "阅读",
+      "编辑"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
     "name": "ONLYOFFICE",
     "url": "https://www.onlyoffice.com/zh/",
     "description": "免费开源的办公软件套件",
@@ -647,18 +671,6 @@
       "开源协议"
     ],
     "updated": "2025-07-24T10:30:00Z"
-  },
-  {
-    "name": "腾讯文档",
-    "url": "https://docs.qq.com/",
-    "description": "在线文档协作平台",
-    "category": "办公工具",
-    "tags": [
-      "文档",
-      "协作",
-      "办公"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
   },
   {
     "name": "石墨文档",
@@ -2482,7 +2494,7 @@
       "极速浏览",
       "安全浏览"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
   },
   {
     "name": "百分浏览器",
@@ -2494,7 +2506,7 @@
       "鼠标手势",
       "隐私保护"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
   },
   {
     "name": "猫眼浏览器",
@@ -2506,7 +2518,7 @@
       "隐私保护",
       "广告屏蔽"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
   },
   {
     "name": "Chromium",
@@ -3241,9 +3253,45 @@
     "updated": "2025-07-23T23:00:00Z"
   },
   {
+    "name": "FREECOMPRESS",
+    "url": "https://freecompress.com/zh-cn",
+    "description": "免费的图片、视频、音频、代码、PDF在线压缩工具",
+    "category": "有损压缩",
+    "tags": [
+      "视频压缩",
+      "图片压缩",
+      "代码精简"
+    ],
+    "updated": "2025-07-24T11:00:00Z"
+  },
+  {
+    "name": "Foxmail",
+    "url": "https://www.foxmail.com/",
+    "description": "腾讯公司开发的电子邮件客户端软件",
+    "category": "邮件工具",
+    "tags": [
+      "邮件客户端",
+      "腾讯",
+      "轻量"
+    ],
+    "updated": "2025-07-24T11:00:00Z"
+  },
+  {
+    "name": "Thunderbird",
+    "url": "https://www.thunderbird.net/zh-CN/",
+    "description": "Mozilla开发的开源邮件客户端",
+    "category": "邮件工具",
+    "tags": [
+      "邮件客户端",
+      "开源",
+      "跨平台"
+    ],
+    "updated": "2025-07-24T11:00:00Z"
+  },
+  {
     "name": "GIMP",
     "url": "https://www.gimp.org/",
-    "description": "开源图像编辑软件",
+    "description": "开源免费图像编辑软件",
     "category": "图形图像工具",
     "tags": [
       "图像处理",
@@ -3255,12 +3303,72 @@
   {
     "name": "Krita",
     "url": "https://krita.org/zh-cn/",
-    "description": "专业开源绘画软件",
+    "description": "专业开源免费绘画软件",
     "category": "图形图像工具",
     "tags": [
       "绘画",
       "开源",
       "专业"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "图得了",
+    "url": "https://picdonenow.toolooz.com/",
+    "description": "简单、快捷、高效的免费在线图片编辑工具",
+    "category": "图形图像工具",
+    "tags": [
+      "在线编辑",
+      "图片处理",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Photopea",
+    "url": "https://www.photopea.com/",
+    "description": "在线图像编辑器，支持PSD等多种格式",
+    "category": "图形图像工具",
+    "tags": [
+      "在线编辑",
+      "图像处理",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Inkscape",
+    "url": "https://inkscape.org/zh-hans/",
+    "description": "开源矢量图形编辑软件，类似于Adobe Illustrator",
+    "category": "图形图像工具",
+    "tags": [
+      "矢量图",
+      "开源",
+      "免费"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "PhotoShop",
+    "url": "https://www.adobe.com/cn/products/photoshop.html",
+    "description": "Ps，Adobe公司开发的专业图像处理软件",
+    "category": "图形图像工具",
+    "tags": [
+      "图像处理",
+      "Adobe",
+      "专业"
+    ],
+    "updated": "2025-07-23T21:00:00Z"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.cn/",
+    "description": "在线图形设计工具，提供丰富模板和素材",
+    "category": "设计工具",
+    "tags": [
+      "在线设计",
+      "模板",
+      "免费"
     ],
     "updated": "2025-07-23T21:00:00Z"
   },
@@ -3889,18 +3997,6 @@
     "updated": "2025-07-24T10:00:00Z"
   },
   {
-    "name": "Ashampoo PDF Free",
-    "url": "https://www.ashampoo.com/zh-cn/pdf-free?preview=true",
-    "description": "免费PDF阅读编辑工具",
-    "category": "办公软件",
-    "tags": [
-      "PDF",
-      "阅读",
-      "编辑"
-    ],
-    "updated": "2025-07-24T18:00:00Z"
-  },
-  {
     "name": "格式工厂",
     "url": "http://www.pcgeshi.com/index.html",
     "description": "多媒体格式处理工具",
@@ -3910,7 +4006,19 @@
       "视频处理",
       "音频处理"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "OpenShot",
+    "url": "https://www.openshot.org/zh-hans/",
+    "description": "开源免费的跨平台视频剪辑工具",
+    "category": "视频剪辑软件",
+    "tags": [
+      "开源",
+      "跨平台",
+      "视频编辑"
+    ],
+    "updated": "2025-07-24T11:00:00Z"
   },
   {
     "name": "剪映",
@@ -3922,7 +4030,7 @@
       "抖音",
       "短视频"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
   },
   {
     "name": "必剪",
@@ -3934,6 +4042,150 @@
       "视频剪辑",
       "UP主"
     ],
-    "updated": "2025-07-24T18:00:00Z"
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Shotcut",
+    "url": "https://shotcut.org/",
+    "description": "开源跨平台视频编辑软件",
+    "category": "视频剪辑",
+    "tags": [
+      "开源",
+      "跨平台",
+      "视频编辑"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "url": "https://www.blackmagicdesign.com/cn/products/davinciresolve/",
+    "description": "专业级视频剪辑与调色软件",
+    "category": "视频剪辑",
+    "tags": [
+      "专业剪辑",
+      "调色",
+      "影视制作"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "url": "https://www.adobe.com/cn/products/premiere.html",
+    "description": "Pr，行业领先的视频编辑软件",
+    "category": "视频剪辑",
+    "tags": [
+      "专业剪辑",
+      "Adobe",
+      "影视制作"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "天地图",
+    "url": "https://www.tianditu.gov.cn/",
+    "description": "中国国家地理信息公共服务平台",
+    "category": "天文地理",
+    "tags": [
+      "地图",
+      "地理信息",
+      "在线地图"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Stellarium Web",
+    "url": "https://stellarium-web.org/",
+    "description": "在线星图",
+    "category": "天文地理",
+    "tags": [
+      "天文",
+      "星空模拟",
+      "星图"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "天文通",
+    "url": "https://laysky.com/",
+    "description": "天文通手机APP官网",
+    "category": "天文地理",
+    "tags": [
+      "天文",
+      "观测",
+      "星象"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Stellarium",
+    "url": "https://stellarium.org/",
+    "description": "开源天文模拟软件",
+    "category": "天文地理",
+    "tags": [
+      "天文",
+      "星空模拟",
+      "开源"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Celestia",
+    "url": "https://celestiaproject.space/",
+    "description": "开源3D天文模拟软件",
+    "category": "天文地理",
+    "tags": [
+      "天文",
+      "3D模拟",
+      "开源"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/",
+    "description": "美国国家航空航天局官网",
+    "category": "天文地理",
+    "tags": [
+      "NASA",
+      "航天",
+      "太空探索"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Heavens-Above",
+    "url": "https://heavens-above.com/",
+    "description": "卫星和天文现象观测网站",
+    "category": "天文地理",
+    "tags": [
+      "天文",
+      "卫星",
+      "观测"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "Windy",
+    "url": "https://www.windy.com/",
+    "description": "全球天气预报和气象信息平台",
+    "category": "天文地理",
+    "tags": [
+      "天气预报",
+      "气象",
+      "全球"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
+  },
+  {
+    "name": "SpaceEngine",
+    "url": "https://spaceengine.org/",
+    "description": "强大的3D宇宙模拟软件",
+    "category": "天文地理",
+    "tags": [
+      "宇宙模拟",
+      "3D",
+      "天文"
+    ],
+    "updated": "2025-07-24T12:00:00Z"
   }
 ]
