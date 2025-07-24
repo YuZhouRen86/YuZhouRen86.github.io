@@ -2905,6 +2905,42 @@
     "updated": "2025-07-23T19:00:00Z"
   },
   {
+    "name": "Windows官方下载",
+    "url": "https://www.microsoft.com/zh-cn/software-download/",
+    "description": "微软官方提供的Windows11/10系统下载中心",
+    "category": "系统维护",
+    "tags": [
+      "系统下载",
+      "Windows",
+      "官方"
+    ],
+    "updated": "2025-07-24T13:00:00Z"
+  },
+  {
+    "name": "MSDN我告诉你",
+    "url": "https://msdn.itellyou.cn/",
+    "description": "原版软件信息收录站点，可下载Windows7、Windows10等系统和软件",
+    "category": "系统维护",
+    "tags": [
+      "系统下载",
+      "Windows",
+      "原版"
+    ],
+    "updated": "2025-07-24T13:00:00Z"
+  },
+  {
+    "name": "360系统重装大师",
+    "url": "https://www.360.cn/soft/srd/",
+    "description": "免费一键在线重装Windows系统工具",
+    "category": "系统维护",
+    "tags": [
+      "系统重装",
+      "360",
+      "免费"
+    ],
+    "updated": "2025-07-24T13:00:00Z"
+  },
+  {
     "name": "DriverPack",
     "url": "https://driverpack.io/zh",
     "description": "驱动自助下载平台",
