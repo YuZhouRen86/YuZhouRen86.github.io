@@ -577,7 +577,7 @@
   },
   {
     "name": "WPS",
-    "url": "https://www.wps.com/",
+    "url": "https://www.wps.cn/",
     "description": "免费全能办公软件",
     "category": "办公工具",
     "tags": [
@@ -637,7 +637,7 @@
   },
   {
     "name": "LibreOffice",
-    "url": "https://www.libreoffice.org/",
+    "url": "https://zh-cn.libreoffice.org/",
     "description": "开源免费的跨平台办公软件",
     "category": "办公工具",
     "tags": [
@@ -646,7 +646,7 @@
       "演示文稿",
       "开源协议"
     ],
-    "updated": "2025-07-24T18:30:00Z"
+    "updated": "2025-07-24T10:30:00Z"
   },
   {
     "name": "腾讯文档",
@@ -1753,18 +1753,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "腾讯文档",
-    "url": "https://docs.qq.com/",
-    "description": "多人协作的在线文档",
-    "category": "办公工具",
-    "tags": [
-      "文档",
-      "协作",
-      "办公"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "金山文档",
     "url": "https://www.kdocs.cn/",
     "description": "在线文档协作平台",
@@ -2485,6 +2473,42 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "星愿浏览器",
+    "url": "https://www.twinkstar.com/",
+    "description": "极速安全的Chromium内核浏览器",
+    "category": "浏览器",
+    "tags": [
+      "Chromium内核",
+      "极速浏览",
+      "安全浏览"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "百分浏览器",
+    "url": "https://www.centbrowser.cn/",
+    "description": "简约的Chromium内核浏览器",
+    "category": "浏览器",
+    "tags": [
+      "Chromium内核",
+      "鼠标手势",
+      "隐私保护"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "猫眼浏览器",
+    "url": "https://www.catsxp.com/",
+    "description": "基于Chrome内核的增强版浏览器",
+    "category": "浏览器",
+    "tags": [
+      "Chrome内核",
+      "隐私保护",
+      "广告屏蔽"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
     "name": "Chromium",
     "url": "https://www.chromium.org/Home/",
     "description": "开源网页浏览器项目，为Google Chrome提供基础",
@@ -2493,18 +2517,6 @@
       "浏览器",
       "开源",
       "Chromium"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "Vivaldi",
-    "url": "https://vivaldi.com/zh-hans/",
-    "description": "由Opera前CEO开发的注重自定义功能的浏览器",
-    "category": "浏览器",
-    "tags": [
-      "浏览器",
-      "自定义",
-      "Vivaldi"
     ],
     "updated": "2025-07-23T14:00:00Z"
   },
@@ -2533,30 +2545,6 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
-    "name": "搜狗高速浏览器",
-    "url": "https://ie.sogou.com/",
-    "description": "搜狗公司开发的双核高速浏览器",
-    "category": "浏览器",
-    "tags": [
-      "浏览器",
-      "双核",
-      "搜狗"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "QQ浏览器",
-    "url": "https://browser.qq.com/",
-    "description": "腾讯公司开发的多功能浏览器",
-    "category": "浏览器",
-    "tags": [
-      "浏览器",
-      "腾讯",
-      "多功能"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
     "name": "联想浏览器",
     "url": "https://browser.lenovo.com/",
     "description": "联想公司推出的集高效浏览、安全防护等功能于一体的浏览器",
@@ -2577,6 +2565,30 @@
       "浏览器",
       "华为",
       "智能"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "搜狗高速浏览器",
+    "url": "https://ie.sogou.com/",
+    "description": "搜狗公司开发的双核高速浏览器",
+    "category": "浏览器",
+    "tags": [
+      "浏览器",
+      "双核",
+      "搜狗"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "name": "QQ浏览器",
+    "url": "https://browser.qq.com/",
+    "description": "腾讯公司开发的多功能浏览器",
+    "category": "浏览器",
+    "tags": [
+      "浏览器",
+      "腾讯",
+      "多功能"
     ],
     "updated": "2025-07-23T14:00:00Z"
   },
@@ -2823,7 +2835,7 @@
   {
     "name": "微软应用商店",
     "url": "https://www.microsoft.com/zh-cn/store",
-    "description": "Windows10/11官方应用分发平台",
+    "description": "Windows11/10官方应用分发平台",
     "category": "应用市场",
     "tags": [
       "应用市场",
@@ -3074,7 +3086,7 @@
   },
   {
     "name": "育碧Connect",
-    "url": "https://ubisoftconnect.com/zh-CN/",
+    "url": "https://zh-cn.ubisoft.com/",
     "description": "育碧游戏管理平台",
     "category": "游戏平台",
     "tags": [
@@ -3265,7 +3277,7 @@
     "updated": "2025-07-23T21:00:00Z"
   },
   {
-    "name": "Snippaste",
+    "name": "Snipaste",
     "url": "https://zh.snipaste.com/index.html",
     "description": "高效截图贴图软件",
     "category": "截图工具",
@@ -3743,5 +3755,185 @@
       "百度系"
     ],
     "updated": "2025-07-23T22:00:00Z"
+  },
+  {
+    "name": "MacType",
+    "url": "https://www.mactype.net/",
+    "description": "Windows字体渲染优化工具",
+    "category": "系统美化",
+    "tags": [
+      "字体渲染",
+      "仿Mac字体",
+      "Windows"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "TranslucentTB",
+    "url": "https://github.com/TranslucentTB/TranslucentTB",
+    "description": "Windows11/10任务栏透明美化工具",
+    "category": "系统美化",
+    "tags": [
+      "任务栏",
+      "透明",
+      "Windows"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "致美化",
+    "url": "https://zhutix.com/",
+    "description": "桌面美化资源分享平台",
+    "category": "系统美化",
+    "tags": [
+      "美化资源",
+      "主题",
+      "壁纸"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "Rainmeter",
+    "url": "https://rainmeter.net/",
+    "description": "桌面信息显示与美化软件",
+    "category": "系统美化",
+    "tags": [
+      "桌面美化",
+      "系统监控",
+      "皮肤定制"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "Classic Shell",
+    "url": "https://classicshell.net/",
+    "description": "Windows10/8.1/8/7免费开始菜单定制工具",
+    "category": "系统美化",
+    "tags": [
+      "开始菜单",
+      "经典风格",
+      "定制"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "Start11",
+    "url": "https://www.stardock.com/products/start11/",
+    "description": "Windows11开始菜单美化工具",
+    "category": "系统美化",
+    "tags": [
+      "开始菜单",
+      "Windows 11",
+      "个性化"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "StartIsBack",
+    "url": "https://startisback.com/",
+    "description": "Windows10开始菜单恢复工具",
+    "category": "系统美化",
+    "tags": [
+      "开始菜单",
+      "Windows 10",
+      "恢复"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "StartAllBack",
+    "url": "https://startallback.com/",
+    "description": "Windows11开始菜单复古美化工具",
+    "category": "系统美化",
+    "tags": [
+      "界面复古",
+      "Windows 11",
+      "定制"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "DWMBlurGlass",
+    "url": "https://github.com/d256/DWMBlurGlass",
+    "description": "Windows11/10模糊玻璃效果工具",
+    "category": "系统美化",
+    "tags": [
+      "模糊特效",
+      "Aero玻璃",
+      "标题栏"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "Bitdock",
+    "url": "https://www.bitdock.cn/",
+    "description": "MacOS风格Dock栏美化工具",
+    "category": "系统美化",
+    "tags": [
+      "Dock栏",
+      "仿MacOS",
+      "快捷启动"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "MyDockFinder",
+    "url": "https://www.mydockfinder.com/",
+    "description": "MacOS风格Dock栏定制工具",
+    "category": "系统美化",
+    "tags": [
+      "Dock栏",
+      "MacOS",
+      "个性化"
+    ],
+    "updated": "2025-07-24T10:00:00Z"
+  },
+  {
+    "name": "Ashampoo PDF Free",
+    "url": "https://www.ashampoo.com/zh-cn/pdf-free?preview=true",
+    "description": "免费PDF阅读编辑工具",
+    "category": "办公软件",
+    "tags": [
+      "PDF",
+      "阅读",
+      "编辑"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "格式工厂",
+    "url": "http://www.pcgeshi.com/index.html",
+    "description": "多媒体格式处理工具",
+    "category": "多媒体处理软件",
+    "tags": [
+      "格式转换",
+      "视频处理",
+      "音频处理"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "剪映",
+    "url": "https://capcut.cn/",
+    "description": "全面易用的桌面端剪辑软件",
+    "category": "视频剪辑",
+    "tags": [
+      "视频剪辑",
+      "抖音",
+      "短视频"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
+  },
+  {
+    "name": "必剪",
+    "url": "https://bcut.bilibili.cn/",
+    "description": "哔哩哔哩视频剪辑软件",
+    "category": "视频剪辑",
+    "tags": [
+      "B站",
+      "视频剪辑",
+      "UP主"
+    ],
+    "updated": "2025-07-24T18:00:00Z"
   }
 ]
