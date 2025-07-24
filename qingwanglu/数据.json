@@ -2929,6 +2929,18 @@
     "updated": "2025-07-24T13:00:00Z"
   },
   {
+    "name": "Microsoft Update Catalog",
+    "url": "https://www.catalog.update.microsoft.com/",
+    "description": "微软更新资源库",
+    "category": "系统工具",
+    "tags": [
+      "系统更新",
+      "补丁下载",
+      "微软官方"
+    ],
+    "updated": "2025-07-24T13:00:00Z"
+  },
+  {
     "name": "360系统重装大师",
     "url": "https://www.360.cn/soft/srd/",
     "description": "免费一键在线重装Windows系统工具",
@@ -4048,7 +4060,7 @@
     "name": "OpenShot",
     "url": "https://www.openshot.org/zh-hans/",
     "description": "开源免费的跨平台视频剪辑工具",
-    "category": "视频剪辑软件",
+    "category": "视频剪辑",
     "tags": [
       "开源",
       "跨平台",
