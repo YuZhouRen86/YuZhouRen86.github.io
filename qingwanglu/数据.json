@@ -48,6 +48,18 @@
     "updated": "2025-07-23T14:00:00Z"
   },
   {
+    "name": "哔哩哔哩",
+    "url": "https://www.bilibili.com/",
+    "description": "B站，年轻人喜爱的视频平台",
+    "category": "视频娱乐",
+    "tags": [
+      "视频",
+      "弹幕",
+      "二次元"
+    ],
+    "updated": "2025-07-23T14:00:00Z"
+  },
+  {
     "name": "Acfun",
     "url": "https://www.acfun.cn/",
     "description": "弹幕视频网站",
@@ -224,18 +236,6 @@
       "房产",
       "租房",
       "买房"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
-  },
-  {
-    "name": "哔哩哔哩",
-    "url": "https://www.bilibili.com/",
-    "description": "B站，年轻人喜爱的视频平台",
-    "category": "视频娱乐",
-    "tags": [
-      "视频",
-      "弹幕",
-      "二次元"
     ],
     "updated": "2025-07-23T14:00:00Z"
   },
@@ -731,18 +731,6 @@
       "智能"
     ],
     "updated": "2025-07-23T17:00:00Z"
-  },
-  {
-    "name": "网易云课堂",
-    "url": "https://study.163.com/",
-    "description": "在线学习平台",
-    "category": "在线教育",
-    "tags": [
-      "学习",
-      "课程",
-      "教育"
-    ],
-    "updated": "2025-07-23T14:00:00Z"
   },
   {
     "name": "Stack Overflow",
@@ -2966,7 +2954,7 @@
   },
   {
     "name": "360系统重装大师",
-    "url": "https://www.360.cn/soft/srd/",
+    "url": "https://renew.360.cn/",
     "description": "免费一键在线重装Windows系统工具",
     "category": "系统维护",
     "tags": [
