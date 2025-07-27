@@ -269,7 +269,13 @@
         function loadDataFromJson() {
             showLoading();
 
-            fetch('数据.json')
+            fetch('数据.json', {
+                    method: 'GET',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Content-Type': 'application/json'
+                    }
+                })
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('网络响应不正常');
