@@ -3074,7 +3074,7 @@
   },
   {
     "name": "PotPlayer",
-    "url": "https://potplayer.daum.net/",
+    "url": "http://potplayer.tv/?lang=zh_CN",
     "description": "功能强大的影音播放器",
     "category": "本地播放器",
     "tags": [

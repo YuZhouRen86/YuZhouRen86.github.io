@@ -17,7 +17,7 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#3B82F6',
+                        primary: '#DC2626',
                         secondary: '#6366F1',
                         accent: '#10B981',
                         dark: '#1E293B',
@@ -41,16 +41,16 @@
                 @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
             }
             .btn-primary {
-                @apply bg-red-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600/90 transition-all duration-200;
+                @apply bg-primary text-white px-4 py-2 rounded-lg shadow-md hover:bg-primary/90 transition-all duration-200;
             }
             .input-primary {
-                @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-600/50 focus:border-red-600 transition-all duration-200;
+                @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200;
             }
             .pagination-btn {
-                @apply w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 hover:border-red-600 hover:text-red-600 transition-all;
+                @apply w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 hover:border-primary hover:text-primary transition-all;
             }
             .pagination-btn.active {
-                @apply bg-red-600 text-white border-red-600;
+                @apply bg-primary text-white border-primary;
             }
         }
     </style>
@@ -92,8 +92,8 @@
                         <p class="text-gray-500 font-medium">总网址数</p>
                         <h3 class="text-3xl font-bold mt-1" id="total-count">0</h3>
                     </div>
-                    <div class="w-12 h-12 rounded-full bg-red-600/10 flex items-center justify-center">
-                        <i class="fa fa-link text-red-600 text-xl"></i>
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                        <i class="fa fa-link text-primary text-xl"></i>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
 
         <!-- 加载中状态 -->
         <div id="loading-state" class="col-span-full flex flex-col items-center justify-center py-16 hidden">
-            <div class="w-16 h-16 border-4 border-red-600/30 border-t-red-600 rounded-full animate-spin mb-6"></div>
+            <div class="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full animate-spin mb-6"></div>
             <p class="text-gray-500">加载中...</p>
         </div>
 
@@ -328,10 +328,10 @@
             allCategoryBtn.addEventListener('click', () => {
                 // 更新活跃状态
                 document.querySelectorAll('.category-btn').forEach(b => {
-                    b.classList.remove('active', 'bg-red-600', 'text-white');
+                    b.classList.remove('active', 'bg-primary', 'text-white');
                     b.classList.add('bg-gray-100', 'text-gray-700');
                 });
-                allCategoryBtn.classList.add('active', 'bg-red-600', 'text-white');
+                allCategoryBtn.classList.add('active', 'bg-primary', 'text-white');
                 allCategoryBtn.classList.remove('bg-gray-100', 'text-gray-700');
 
                 currentCategory = 'all';
@@ -381,10 +381,10 @@
                 btn.addEventListener('click', () => {
                     // 更新活跃状态
                     document.querySelectorAll('.category-btn').forEach(b => {
-                        b.classList.remove('active', 'bg-red-600', 'text-white');
+                        b.classList.remove('active', 'bg-primary', 'text-white');
                         b.classList.add('bg-gray-100', 'text-gray-700');
                     });
-                    btn.classList.add('active', 'bg-red-600', 'text-white');
+                    btn.classList.add('active', 'bg-primary', 'text-white');
                     btn.classList.remove('bg-gray-100', 'text-gray-700');
 
                     currentCategory = category;
@@ -643,7 +643,7 @@
             card.innerHTML = `
                 <div class="p-5">
                     ${bookmark.category ? `
-                        <div class="text-xs text-red-600 font-medium mb-2">
+                        <div class="text-xs text-primary font-medium mb-2">
                             ${bookmark.category}
                         </div>
                     ` : ''}
@@ -651,7 +651,7 @@
                     <h3 class="font-semibold text-lg mb-1 truncate">${bookmark.name}</h3>
                     
                     <a href="${bookmark.url}" target="_blank" rel="noopener noreferrer" 
-                       class="text-gray-500 text-sm mb-3 block truncate hover:text-red-600 transition-colors">
+                       class="text-gray-500 text-sm mb-3 block truncate hover:text-primary transition-colors">
                         ${domain}
                     </a>
                     
@@ -665,7 +665,7 @@
                     
                     <div class="mt-4 flex justify-between items-center">
                         <a href="${bookmark.url}" target="_blank" rel="noopener noreferrer" 
-                           class="text-red-600 text-sm font-medium hover:underline flex items-center gap-1">
+                           class="text-primary text-sm font-medium hover:underline flex items-center gap-1">
                             <span>访问</span>
                             <i class="fa fa-external-link text-xs"></i>
                         </a>
